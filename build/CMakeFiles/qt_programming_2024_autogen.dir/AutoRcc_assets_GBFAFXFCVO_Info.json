@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/qt_programming_2024_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual",
+	"CMAKE_SOURCE_DIR" : "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/qt_programming_2024_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/HeadEquipments/CapOfTheHero/BotW_Cap_of_the_Hero_Icon.png",
+		"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Armors/FlamebreakerArmor/BotW_Flamebreaker_Armor_Icon.png",
+		"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Armors/OldShirt/BotW_Old_Shirt_Icon.png",
+		"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Maps/Battlefield/g9tOqth.png",
+		"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/LegEquipments/WellWornTrousers/BotW_Well-Worn_Trousers_Icon.png"
+	],
+	"LOCK_FILE" : "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/CMakeFiles/qt_programming_2024_autogen.dir/AutoRcc_assets_GBFAFXFCVO_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "assets" ],
+	"OUTPUT_CHECKSUM" : "GBFAFXFCVO",
+	"OUTPUT_NAME" : "qrc_assets.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.5.3/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/CMakeFiles/qt_programming_2024_autogen.dir/AutoRcc_assets_GBFAFXFCVO_Used.txt",
+	"SOURCE" : "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/assets.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,116 @@
+[
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\qt_programming_2024_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\build\\qt_programming_2024_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/qt_programming_2024_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\main.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\main.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/main.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\MyGame.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\MyGame.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/MyGame.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Item.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Item.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Item.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Characters\\Character.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Characters\\Character.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Character.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Characters\\Link.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Characters\\Link.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Link.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Armors\\Armor.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Armors\\Armor.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Armors/Armor.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Armors/Armor.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\HeadEquipments\\HeadEquipment.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\HeadEquipments\\HeadEquipment.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/HeadEquipment.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/HeadEquipments/HeadEquipment.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\LegEquipments\\LegEquipment.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\LegEquipments\\LegEquipment.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/LegEquipments/LegEquipment.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/LegEquipments/LegEquipment.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\HeadEquipments\\CapOfTheHero.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\HeadEquipments\\CapOfTheHero.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/CapOfTheHero.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/HeadEquipments/CapOfTheHero.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Armors\\OldShirt.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Armors\\OldShirt.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Armors/OldShirt.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Armors/OldShirt.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\LegEquipments\\WellWornTrousers.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\LegEquipments\\WellWornTrousers.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/LegEquipments/WellWornTrousers.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/LegEquipments/WellWornTrousers.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Scenes\\Scene.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Scenes\\Scene.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/Scene.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Scenes/Scene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Scenes\\BattleScene.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Scenes\\BattleScene.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/BattleScene.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Maps\\Map.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Maps\\Map.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Maps/Map.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Map.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Maps\\Battlefield.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Maps\\Battlefield.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Maps/Battlefield.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Battlefield.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Mountable.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Mountable.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Mountable.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Armors\\FlamebreakerArmor.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Armors\\FlamebreakerArmor.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Armors/FlamebreakerArmor.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Armors/FlamebreakerArmor.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\qt_programming_2024_autogen\\GBFAFXFCVO\\qrc_assets.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\build\\qt_programming_2024_autogen\\GBFAFXFCVO\\qrc_assets.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"
+}
+]

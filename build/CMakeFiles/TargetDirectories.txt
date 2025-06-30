@@ -1,0 +1,5 @@
+C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/CMakeFiles/qt_programming_2024.dir
+C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/CMakeFiles/edit_cache.dir
+C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/CMakeFiles/rebuild_cache.dir
+C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/CMakeFiles/qt_programming_2024_autogen_timestamp_deps.dir
+C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/CMakeFiles/qt_programming_2024_autogen.dir
