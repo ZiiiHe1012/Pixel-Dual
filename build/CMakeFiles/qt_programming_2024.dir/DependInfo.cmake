@@ -23,6 +23,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Maps/Battlefield.cpp" "CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Battlefield.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Battlefield.cpp.obj.d"
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Maps/Map.cpp" "CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Map.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Map.cpp.obj.d"
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.cpp" "CMakeFiles/qt_programming_2024.dir/src/Items/Mountable.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Items/Mountable.cpp.obj.d"
+  "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.cpp" "CMakeFiles/qt_programming_2024.dir/src/Items/Platforms/Platform.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Items/Platforms/Platform.cpp.obj.d"
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/MyGame.cpp" "CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj.d"
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/BattleScene.cpp" "CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj.d"
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/Scene.cpp" "CMakeFiles/qt_programming_2024.dir/src/Scenes/Scene.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Scenes/Scene.cpp.obj.d"

@@ -32,6 +32,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qt_programming_2024.dir/src/Items/Maps/Map.cpp.obj.d"
   "CMakeFiles/qt_programming_2024.dir/src/Items/Mountable.cpp.obj"
   "CMakeFiles/qt_programming_2024.dir/src/Items/Mountable.cpp.obj.d"
+  "CMakeFiles/qt_programming_2024.dir/src/Items/Platforms/Platform.cpp.obj"
+  "CMakeFiles/qt_programming_2024.dir/src/Items/Platforms/Platform.cpp.obj.d"
   "CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj"
   "CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj.d"
   "CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj"

@@ -302,6 +302,12 @@
 			null
 		],
 		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.h",
+			"MU",
+			"SXUY47TH65/moc_Platform.cpp",
+			null
+		],
+		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/MyGame.h",
 			"MU",
 			"UVLADIE3JM/moc_MyGame.cpp",
@@ -450,6 +456,11 @@
 		],
 		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.cpp",
 			"MU",
 			null
 		],

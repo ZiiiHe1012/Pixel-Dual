@@ -291,13 +291,11 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qscopedpointer.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qiodevicebase.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qline.h \
- C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Characters\Character.h \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsEllipseItem \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QDateTime \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qmetatype.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qcompare.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qfloat16.h \
@@ -314,12 +312,6 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tree.h \
  c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_map.h \
  c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qobject_impl.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qbindingstorage.h \
- c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
- c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
- c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qtextstream.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qstringconverter_base.h \
@@ -333,6 +325,18 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qhash.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qvarlengtharray.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qobject_impl.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qbindingstorage.h \
+ c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
+ c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
+ c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
+ C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Characters\Character.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsEllipseItem \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qpainterpath.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qtransform.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qpixmap.h \
@@ -359,4 +363,12 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/LegEquipments/LegEquipment.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.h
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/Scene.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h

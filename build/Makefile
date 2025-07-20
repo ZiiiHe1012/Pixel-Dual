@@ -514,6 +514,30 @@ src/Items/Mountable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Mountable.cpp.s
 .PHONY : src/Items/Mountable.cpp.s
 
+src/Items/Platforms/Platform.obj: src/Items/Platforms/Platform.cpp.obj
+.PHONY : src/Items/Platforms/Platform.obj
+
+# target to build an object file
+src/Items/Platforms/Platform.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Platforms/Platform.cpp.obj
+.PHONY : src/Items/Platforms/Platform.cpp.obj
+
+src/Items/Platforms/Platform.i: src/Items/Platforms/Platform.cpp.i
+.PHONY : src/Items/Platforms/Platform.i
+
+# target to preprocess a source file
+src/Items/Platforms/Platform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Platforms/Platform.cpp.i
+.PHONY : src/Items/Platforms/Platform.cpp.i
+
+src/Items/Platforms/Platform.s: src/Items/Platforms/Platform.cpp.s
+.PHONY : src/Items/Platforms/Platform.s
+
+# target to generate assembly for a file
+src/Items/Platforms/Platform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Platforms/Platform.cpp.s
+.PHONY : src/Items/Platforms/Platform.cpp.s
+
 src/MyGame.obj: src/MyGame.cpp.obj
 .PHONY : src/MyGame.obj
 
@@ -666,6 +690,9 @@ help:
 	@echo ... src/Items/Mountable.obj
 	@echo ... src/Items/Mountable.i
 	@echo ... src/Items/Mountable.s
+	@echo ... src/Items/Platforms/Platform.obj
+	@echo ... src/Items/Platforms/Platform.i
+	@echo ... src/Items/Platforms/Platform.s
 	@echo ... src/MyGame.obj
 	@echo ... src/MyGame.i
 	@echo ... src/MyGame.s
