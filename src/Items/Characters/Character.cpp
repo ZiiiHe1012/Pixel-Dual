@@ -83,6 +83,7 @@ void Character::processInput() {
             if (pixmapItem) pixmapItem->setVisible(false);
             if (crouchPixmapItem) crouchPixmapItem->setVisible(true);
         }
+        crouchPixmapItem->setPos(0, 11); 
         // 下蹲时不能移动
         currentVelocity.setX(0);
     } 
@@ -92,6 +93,7 @@ void Character::processInput() {
             isCrouching = false;
             if (pixmapItem) pixmapItem->setVisible(true);
             if (crouchPixmapItem) crouchPixmapItem->setVisible(false);
+            crouchPixmapItem->setPos(0, 0); 
         }    
         if (isLeftDown()) {
             newXVelocity -= moveSpeed;
