@@ -6,6 +6,7 @@
 #define QT_PROGRAMMING_2024_BATTLESCENE_H
 
 #include <QKeyEvent>
+#include <QList>
 #include "Scene.h"
 #include "../Items/Maps/Map.h"
 #include "../Items/Characters/Character.h"
@@ -39,6 +40,7 @@ private:
 
     Map *map;
     Character *character;
+    QList<Platform*> platforms;
     Armor *spareArmor;
 };
 

@@ -15,7 +15,7 @@ public:
 
     void scaleToFitScene(QGraphicsScene *scene);
 
-    virtual qreal getFloorHeight(); // Need to rewrite to support multiple platforms
+    virtual qreal getFloorHeight();
 
     virtual QPointF getSpawnPos();
 };

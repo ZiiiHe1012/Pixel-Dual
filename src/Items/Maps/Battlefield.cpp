@@ -8,5 +8,6 @@ Battlefield::Battlefield(QGraphicsItem *parent) : Map(parent, ":/Items/Maps/Batt
 
 qreal Battlefield::getFloorHeight() {
     auto sceneRect = sceneBoundingRect();
-    return (sceneRect.top() + sceneRect.bottom()) * 0.63;
+    // 调整落地高度
+    return (sceneRect.top() + sceneRect.bottom()) * 0.603;
 }

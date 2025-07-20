@@ -15,5 +15,4 @@ public:
     qreal getFloorHeight() override;
 };
 
-
 #endif //QT_PROGRAMMING_2024_BATTLEFIELD_H

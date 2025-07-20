@@ -9,10 +9,11 @@
 #include "../HeadEquipments/HeadEquipment.h"
 #include "../Armors/Armor.h"
 #include "../LegEquipments/LegEquipment.h"
+#include "../Platforms/Platform.h"
 
 class Character : public Item {
 public:
-    explicit Character(QGraphicsItem *parent);
+    explicit Character(QGraphicsItem *parent, const QString &pixmapPath = "");
 
     [[nodiscard]] bool isLeftDown() const;
 
@@ -21,6 +22,20 @@ public:
     [[nodiscard]] bool isRightDown() const;
 
     void setRightDown(bool rightDown);
+
+    // 跳跃相关
+    [[nodiscard]] bool isUpDown() const;
+
+    void setUpDown(bool upDown);
+
+    void applyGravity(qint64 deltaTime);
+    void checkPlatformCollision(const QList<Platform*>& platforms);
+    void checkGroundCollision(qreal groundHeight);
+
+    // 下蹲相关
+    [[nodiscard]] bool isCrouchDown() const;
+    void setCrouchDown(bool crouchDown);
+    void setCrouchImage(const QString& crouchImagePath);  // 设置下蹲图像
 
     [[nodiscard]] bool isPickDown() const;
 
@@ -36,6 +51,10 @@ public:
 
     Armor* pickupArmor(Armor* newArmor);
 
+    bool isOnPlatform = false;
+    bool isGrounded = true;
+    bool isCrouching = false;  
+
 protected:
     HeadEquipment *headEquipment{};
     LegEquipment *legEquipment{};
@@ -43,9 +62,15 @@ protected:
     QPointF velocity{};
 //    QGraphicsEllipseItem *ellipseItem; // for debugging
 private:
-    bool leftDown{}, rightDown{}, pickDown{};
+    bool leftDown{}, rightDown{}, upDown{}, crouchDown{}, pickDown{};
     bool lastPickDown{};
     bool picking{};
+    QGraphicsPixmapItem* crouchPixmapItem = nullptr;  // 下蹲图像
+    qreal gravity = 0.003;  // 重力加速度
+    qreal jumpVelocity = -1;  // 跳跃初速度
+    qint64 jumpStartTime = 0;
+    qint64 lastJumpTime = 0;
+    qint64 jumpCooldown = 600; // 跳跃冷却
 };
 
 

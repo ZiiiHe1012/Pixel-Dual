@@ -15,7 +15,7 @@ void Map::scaleToFitScene(QGraphicsScene *scene) {
     qreal scaleY = sceneRect.height() / itemRect.height();
 
     // Choose the smaller scale factor to maintain aspect ratio
-    qreal scaleFactor = qMin(scaleX, scaleY);
+    qreal scaleFactor = qMax(scaleX, scaleY);
 
     // Apply the scale to the item
     setTransform(QTransform::fromScale(scaleFactor, scaleFactor), true);
@@ -36,3 +36,4 @@ qreal Map::getFloorHeight() {
     auto sceneRect = sceneBoundingRect();
     return sceneRect.top() + (sceneRect.top() - sceneRect.bottom()) * 0.5;
 }
+
