@@ -568,6 +568,8 @@ qt_programming_2024_autogen/timestamp: \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/CapOfTheHero.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/HeadEquipment.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/HeadEquipment.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/LegEquipments/LegEquipment.cpp \
@@ -582,6 +584,12 @@ qt_programming_2024_autogen/timestamp: \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Grass.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Grass.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Ice.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Ice.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/MyGame.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/MyGame.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/BattleScene.cpp \

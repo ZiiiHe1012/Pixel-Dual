@@ -7,6 +7,7 @@
 #include "Character.h"
 #include "../../Scenes/Scene.h"
 #include "../Platforms/Platform.h"
+#include "../../Scenes/BattleScene.h"
 
 Character::Character(QGraphicsItem *parent, const QString &pixmapPath) 
     : Item(parent, pixmapPath) {
@@ -68,6 +69,22 @@ void Character::setVelocity(const QPointF &velocity) {
     Character::velocity = velocity;
 }
 
+// 伤害判定
+void Character::takeDamage(int damage) {
+    currentHealth -= damage;
+    if (currentHealth < 0) {
+        currentHealth = 0;
+    }
+}
+
+// 治疗判定
+void Character::heal(int amount) {
+    currentHealth += amount;
+    if (currentHealth > maxHealth) {
+        currentHealth = maxHealth;
+    }
+}
+
 void Character::processInput() {
     // 变换原点设置为中心
     if (pixmapItem) {
@@ -75,7 +92,8 @@ void Character::processInput() {
     }
     auto currentVelocity = getVelocity();
     qreal newXVelocity = 0;
-    const auto moveSpeed = 0.3;
+    // 冰面速度增加
+    qreal currentMoveSpeed = onIce ? baseSpeed * 1.8 : baseSpeed; 
     if (isCrouchDown() && isGrounded) {
         // 切换到下蹲状态
         if (!isCrouching) {
@@ -96,11 +114,11 @@ void Character::processInput() {
             crouchPixmapItem->setPos(0, 0); 
         }    
         if (isLeftDown()) {
-            newXVelocity -= moveSpeed;
+            newXVelocity -= currentMoveSpeed;
             setTransform(QTransform().scale(-1, 1));
         }
         if (isRightDown()) {
-            newXVelocity += moveSpeed;
+            newXVelocity += currentMoveSpeed;
             setTransform(QTransform().scale(1, 1));
         }
         currentVelocity.setX(newXVelocity);
@@ -204,4 +222,26 @@ void Character::checkPlatformCollision(const QList<Platform*>& platforms) {
         // 离开平台的检测
         isOnPlatform = false;
     }
+}
+
+// 检查地形效果
+void Character::checkTerrainEffect(const QList<Terrain*>& terrains) {
+    QRectF charRect = sceneBoundingRect();
+    bool onGrass = false;
+    onIce = false;
+    for (Terrain* terrain : terrains) {
+        QRectF terrainRect = terrain->sceneBoundingRect();
+        // 检测角色是否在地形上
+        if (charRect.intersects(terrainRect)) {
+            if (terrain->getType() == Terrain::GRASS) {
+                onGrass = true;
+            } else if (terrain->getType() == Terrain::ICE) {
+                onIce = true;
+            }
+        }
+    }
+    // 草地下蹲隐身
+    invisible = onGrass && isCrouching && isGrounded;
+    if (invisible) setOpacity(0.3);
+    else setOpacity(1.0);
 }

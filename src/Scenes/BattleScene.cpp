@@ -11,6 +11,8 @@ using namespace std;
 #include "../Items/Maps/Battlefield.h"
 #include "../Items/Armors/FlamebreakerArmor.h"
 #include "../Items/Platforms/Platform.h"
+#include "../Items/Terrain/Grass.h"
+#include "../Items/Terrain/Ice.h"
 
 BattleScene::BattleScene(QObject *parent) : Scene(parent) {
     // This is useful if you want the scene to have the exact same dimensions as the view
@@ -31,6 +33,19 @@ BattleScene::BattleScene(QObject *parent) : Scene(parent) {
     for (auto platform : platforms) {
         addItem(platform);
     }
+    // 添加草地
+    GrassTerrain* grass1 = new GrassTerrain(0, 420, 368, 200);
+    terrains.append(grass1);
+    addItem(grass1);
+    // 添加冰场
+    IceTerrain* ice1 = new IceTerrain(930, 420, 368, 200);
+    terrains.append(ice1);
+    addItem(ice1);
+    // 添加生命条
+    characterHealthBar = new HealthBar(60, 8);
+    characterHealthBar->setParentItem(character);
+    characterHealthBar->setPos(-14, -20);
+    character->setMaxHealth(100);
     map->scaleToFitScene(this);
     character->setPos(map->getSpawnPos());
 }
@@ -108,6 +123,18 @@ void BattleScene::keyReleaseEvent(QKeyEvent *event) {
 
 void BattleScene::update() {
     Scene::update();
+    if (character != nullptr) {
+        int currentHealth = character->getCurrentHealth();
+        int maxHealth = character->getMaxHealth();
+        // 更新跟随的血条
+        if (characterHealthBar != nullptr) {
+            characterHealthBar->setHealth(currentHealth, maxHealth);
+        }
+        // 检查是否死亡
+        if (character->isDead()) {
+
+        }
+    }
 }
 
 void BattleScene::processMovement() {
@@ -124,6 +151,8 @@ void BattleScene::processMovement() {
             qreal groundHeight = map->getFloorHeight();
             character->checkGroundCollision(groundHeight);
         }
+        // 地形检测
+        character->checkTerrainEffect(terrains);
     }
 }
 

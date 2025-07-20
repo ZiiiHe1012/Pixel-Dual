@@ -10,6 +10,7 @@
 #include "../Armors/Armor.h"
 #include "../LegEquipments/LegEquipment.h"
 #include "../Platforms/Platform.h"
+#include "../Terrain/Terrain.h"
 
 class Character : public Item {
 public:
@@ -37,6 +38,18 @@ public:
     void setCrouchDown(bool crouchDown);
     void setCrouchImage(const QString& crouchImagePath);  // 设置下蹲图像
 
+    // 地形相关
+    void checkTerrainEffect(const QList<Terrain*>& terrains);
+    bool isInvisible() const { return invisible; }
+
+    // 生命值相关
+    void setMaxHealth(int maxHp) { maxHealth = maxHp; currentHealth = maxHp; }
+    int getCurrentHealth() const { return currentHealth; }
+    int getMaxHealth() const { return maxHealth; }
+    void takeDamage(int damage);
+    void heal(int amount);
+    bool isDead() const { return currentHealth <= 0; }
+
     [[nodiscard]] bool isPickDown() const;
 
     void setPickDown(bool pickDown);
@@ -53,19 +66,24 @@ public:
 
     bool isOnPlatform = false;
     bool isGrounded = true;
-    bool isCrouching = false;  
+    bool isCrouching = false; 
+    bool invisible = false;
+    bool onIce = false;
 
 protected:
     HeadEquipment *headEquipment{};
     LegEquipment *legEquipment{};
     Armor *armor{};
     QPointF velocity{};
+    int maxHealth = 100;
+    int currentHealth = 100;
 //    QGraphicsEllipseItem *ellipseItem; // for debugging
 private:
     bool leftDown{}, rightDown{}, upDown{}, crouchDown{}, pickDown{};
     bool lastPickDown{};
     bool picking{};
     QGraphicsPixmapItem* crouchPixmapItem = nullptr;  // 下蹲图像
+    qreal baseSpeed = 0.3;  // 基础移动速度 
     qreal gravity = 0.003;  // 重力加速度
     qreal jumpVelocity = -1;  // 跳跃初速度
     qint64 jumpStartTime = 0;

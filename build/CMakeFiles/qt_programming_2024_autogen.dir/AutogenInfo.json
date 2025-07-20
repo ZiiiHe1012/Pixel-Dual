@@ -266,6 +266,12 @@
 			null
 		],
 		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h",
+			"MU",
+			"TUFB3QNAD4/moc_HealthBar.cpp",
+			null
+		],
+		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h",
 			"MU",
 			"7O23G427QC/moc_Item.cpp",
@@ -305,6 +311,24 @@
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.h",
 			"MU",
 			"SXUY47TH65/moc_Platform.cpp",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Grass.h",
+			"MU",
+			"GGCAGU2AWY/moc_Grass.cpp",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Ice.h",
+			"MU",
+			"GGCAGU2AWY/moc_Ice.cpp",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.h",
+			"MU",
+			"GGCAGU2AWY/moc_Terrain.cpp",
 			null
 		],
 		[
@@ -430,6 +454,11 @@
 			null
 		],
 		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.cpp",
 			"MU",
 			null
@@ -461,6 +490,21 @@
 		],
 		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Grass.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Ice.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.cpp",
 			"MU",
 			null
 		],

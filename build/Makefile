@@ -370,6 +370,30 @@ src/Items/HeadEquipments/HeadEquipment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HeadEquipments/HeadEquipment.cpp.s
 .PHONY : src/Items/HeadEquipments/HeadEquipment.cpp.s
 
+src/Items/HealthBar/HealthBar.obj: src/Items/HealthBar/HealthBar.cpp.obj
+.PHONY : src/Items/HealthBar/HealthBar.obj
+
+# target to build an object file
+src/Items/HealthBar/HealthBar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthBar/HealthBar.cpp.obj
+.PHONY : src/Items/HealthBar/HealthBar.cpp.obj
+
+src/Items/HealthBar/HealthBar.i: src/Items/HealthBar/HealthBar.cpp.i
+.PHONY : src/Items/HealthBar/HealthBar.i
+
+# target to preprocess a source file
+src/Items/HealthBar/HealthBar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthBar/HealthBar.cpp.i
+.PHONY : src/Items/HealthBar/HealthBar.cpp.i
+
+src/Items/HealthBar/HealthBar.s: src/Items/HealthBar/HealthBar.cpp.s
+.PHONY : src/Items/HealthBar/HealthBar.s
+
+# target to generate assembly for a file
+src/Items/HealthBar/HealthBar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthBar/HealthBar.cpp.s
+.PHONY : src/Items/HealthBar/HealthBar.cpp.s
+
 src/Items/Item.obj: src/Items/Item.cpp.obj
 .PHONY : src/Items/Item.obj
 
@@ -538,6 +562,78 @@ src/Items/Platforms/Platform.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Platforms/Platform.cpp.s
 .PHONY : src/Items/Platforms/Platform.cpp.s
 
+src/Items/Terrain/Grass.obj: src/Items/Terrain/Grass.cpp.obj
+.PHONY : src/Items/Terrain/Grass.obj
+
+# target to build an object file
+src/Items/Terrain/Grass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Grass.cpp.obj
+.PHONY : src/Items/Terrain/Grass.cpp.obj
+
+src/Items/Terrain/Grass.i: src/Items/Terrain/Grass.cpp.i
+.PHONY : src/Items/Terrain/Grass.i
+
+# target to preprocess a source file
+src/Items/Terrain/Grass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Grass.cpp.i
+.PHONY : src/Items/Terrain/Grass.cpp.i
+
+src/Items/Terrain/Grass.s: src/Items/Terrain/Grass.cpp.s
+.PHONY : src/Items/Terrain/Grass.s
+
+# target to generate assembly for a file
+src/Items/Terrain/Grass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Grass.cpp.s
+.PHONY : src/Items/Terrain/Grass.cpp.s
+
+src/Items/Terrain/Ice.obj: src/Items/Terrain/Ice.cpp.obj
+.PHONY : src/Items/Terrain/Ice.obj
+
+# target to build an object file
+src/Items/Terrain/Ice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Ice.cpp.obj
+.PHONY : src/Items/Terrain/Ice.cpp.obj
+
+src/Items/Terrain/Ice.i: src/Items/Terrain/Ice.cpp.i
+.PHONY : src/Items/Terrain/Ice.i
+
+# target to preprocess a source file
+src/Items/Terrain/Ice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Ice.cpp.i
+.PHONY : src/Items/Terrain/Ice.cpp.i
+
+src/Items/Terrain/Ice.s: src/Items/Terrain/Ice.cpp.s
+.PHONY : src/Items/Terrain/Ice.s
+
+# target to generate assembly for a file
+src/Items/Terrain/Ice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Ice.cpp.s
+.PHONY : src/Items/Terrain/Ice.cpp.s
+
+src/Items/Terrain/Terrain.obj: src/Items/Terrain/Terrain.cpp.obj
+.PHONY : src/Items/Terrain/Terrain.obj
+
+# target to build an object file
+src/Items/Terrain/Terrain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Terrain.cpp.obj
+.PHONY : src/Items/Terrain/Terrain.cpp.obj
+
+src/Items/Terrain/Terrain.i: src/Items/Terrain/Terrain.cpp.i
+.PHONY : src/Items/Terrain/Terrain.i
+
+# target to preprocess a source file
+src/Items/Terrain/Terrain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Terrain.cpp.i
+.PHONY : src/Items/Terrain/Terrain.cpp.i
+
+src/Items/Terrain/Terrain.s: src/Items/Terrain/Terrain.cpp.s
+.PHONY : src/Items/Terrain/Terrain.s
+
+# target to generate assembly for a file
+src/Items/Terrain/Terrain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Terrain.cpp.s
+.PHONY : src/Items/Terrain/Terrain.cpp.s
+
 src/MyGame.obj: src/MyGame.cpp.obj
 .PHONY : src/MyGame.obj
 
@@ -672,6 +768,9 @@ help:
 	@echo ... src/Items/HeadEquipments/HeadEquipment.obj
 	@echo ... src/Items/HeadEquipments/HeadEquipment.i
 	@echo ... src/Items/HeadEquipments/HeadEquipment.s
+	@echo ... src/Items/HealthBar/HealthBar.obj
+	@echo ... src/Items/HealthBar/HealthBar.i
+	@echo ... src/Items/HealthBar/HealthBar.s
 	@echo ... src/Items/Item.obj
 	@echo ... src/Items/Item.i
 	@echo ... src/Items/Item.s
@@ -693,6 +792,15 @@ help:
 	@echo ... src/Items/Platforms/Platform.obj
 	@echo ... src/Items/Platforms/Platform.i
 	@echo ... src/Items/Platforms/Platform.s
+	@echo ... src/Items/Terrain/Grass.obj
+	@echo ... src/Items/Terrain/Grass.i
+	@echo ... src/Items/Terrain/Grass.s
+	@echo ... src/Items/Terrain/Ice.obj
+	@echo ... src/Items/Terrain/Ice.i
+	@echo ... src/Items/Terrain/Ice.s
+	@echo ... src/Items/Terrain/Terrain.obj
+	@echo ... src/Items/Terrain/Terrain.i
+	@echo ... src/Items/Terrain/Terrain.s
 	@echo ... src/MyGame.obj
 	@echo ... src/MyGame.i
 	@echo ... src/MyGame.s

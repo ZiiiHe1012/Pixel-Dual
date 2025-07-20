@@ -49,6 +49,14 @@ add_executable(qt_programming_2024 src/main.cpp
         src/Items/Armors/FlamebreakerArmor.h
         src/Items/Platforms/Platform.h
         src/Items/Platforms/Platform.cpp
+        src/Items/Terrain/Terrain.cpp
+        src/Items/Terrain/Terrain.h
+        src/Items/Terrain/Grass.cpp
+        src/Items/Terrain/Grass.h
+        src/Items/Terrain/Ice.cpp
+        src/Items/Terrain/Ice.h
+        src/Items/HealthBar/HealthBar.cpp
+        src/Items/HealthBar/HealthBar.h
         )
 target_link_libraries(qt_programming_2024
         Qt::Core

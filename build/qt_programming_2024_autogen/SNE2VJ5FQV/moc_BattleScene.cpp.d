@@ -365,9 +365,11 @@ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/qt_programming_2024_autogen/S
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Armors/Armor.h \
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Character.h \
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/HeadEquipment.h \
+  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h \
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/LegEquipments/LegEquipment.h \
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Maps/Map.h \
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.h \
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.h \
+  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.h \
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/Scene.h

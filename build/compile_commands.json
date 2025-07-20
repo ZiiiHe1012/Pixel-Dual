@@ -115,6 +115,30 @@
 },
 {
   "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Terrain\\Terrain.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Terrain\\Terrain.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Terrain.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Terrain\\Grass.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Terrain\\Grass.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Grass.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Grass.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Terrain\\Ice.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Terrain\\Ice.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Ice.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Ice.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\HealthBar\\HealthBar.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\HealthBar\\HealthBar.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/HealthBar/HealthBar.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
   "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\qt_programming_2024_autogen\\GBFAFXFCVO\\qrc_assets.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\build\\qt_programming_2024_autogen\\GBFAFXFCVO\\qrc_assets.cpp",
   "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp",
   "output": "CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"
