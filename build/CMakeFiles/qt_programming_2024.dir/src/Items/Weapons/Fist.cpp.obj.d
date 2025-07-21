@@ -353,6 +353,8 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Character.h \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsEllipseItem \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsColorizeEffect \

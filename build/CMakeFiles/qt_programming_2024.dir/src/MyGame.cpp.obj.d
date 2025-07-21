@@ -422,4 +422,5 @@ CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj: \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h

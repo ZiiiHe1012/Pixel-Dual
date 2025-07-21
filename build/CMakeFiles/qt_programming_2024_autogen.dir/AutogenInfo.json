@@ -338,6 +338,12 @@
 			null
 		],
 		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Knife.h",
+			"MU",
+			"Z3UREFIW6B/moc_Knife.cpp",
+			null
+		],
+		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h",
 			"MU",
 			"Z3UREFIW6B/moc_Weapon.cpp",
@@ -522,6 +528,11 @@
 		],
 		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Fist.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Knife.cpp",
 			"MU",
 			null
 		],

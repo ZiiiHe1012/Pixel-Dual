@@ -375,6 +375,8 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/Scene.h \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
@@ -394,7 +396,6 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtCore/QList \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qlist.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/QRect \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qrect.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/QSize \
@@ -412,4 +413,10 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Character.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Fist.h \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Knife.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QPropertyAnimation \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qpropertyanimation.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qvariantanimation.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qabstractanimation.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qeasingcurve.h

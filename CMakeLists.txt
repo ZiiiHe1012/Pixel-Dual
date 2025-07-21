@@ -61,6 +61,8 @@ add_executable(qt_programming_2024 src/main.cpp
         src/Items/Weapons/Fist.h
         src/Items/Weapons/Weapon.cpp
         src/Items/Weapons/Weapon.h
+        src/Items/Weapons/Knife.cpp
+        src/Items/Weapons/Knife.h
         )
 target_link_libraries(qt_programming_2024
         Qt::Core

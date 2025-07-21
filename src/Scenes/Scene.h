@@ -27,10 +27,11 @@ protected slots:
     virtual void update();
 
 protected:
+    QTimer *timer;
     qint64 deltaTime{};
 
 private:
-    QTimer *timer;
+    
     qint64 lastTime{-1};
 };
 

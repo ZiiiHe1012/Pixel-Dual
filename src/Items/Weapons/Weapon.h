@@ -3,10 +3,12 @@
 
 #include "../Item.h"
 #include <QTimer>
+#include <QObject>
 
 class Character;
 
-class Weapon : public Item {
+class Weapon : public QObject, public Item {
+    Q_OBJECT
 public:
     explicit Weapon(QGraphicsItem *parent, const QString &pixmapPath);
     

@@ -47,6 +47,11 @@ private:
     HealthBar* characterHealthBar;
     HealthBar* character2HealthBar;  // 第二个角色的血条
     Armor *spareArmor;
+    // 游戏结束
+    bool gameOver = false;
+    QGraphicsTextItem* winnerText = nullptr;
+    void showWinner(int playerNumber);
+    void endGame();
 };
 
 

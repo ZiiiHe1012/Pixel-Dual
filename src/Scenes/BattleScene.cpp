@@ -57,11 +57,18 @@ BattleScene::BattleScene(QObject *parent) : Scene(parent) {
     character2HealthBar->setParentItem(character2);
     character2HealthBar->setPos(-14, -20);
     character2->setMaxHealth(100);
-
+    // 游戏结束
+    winnerText = new QGraphicsTextItem();
+    winnerText->setDefaultTextColor(Qt::yellow);
+    winnerText->setFont(QFont("Arial", 48, QFont::Bold));
+    winnerText->setZValue(200);
+    addItem(winnerText);
+    winnerText->setVisible(false);
     map->scaleToFitScene(this);
 }
 
 void BattleScene::processInput() {
+    if (gameOver) return;
     Scene::processInput();
     if (character != nullptr) {
         character->processInput();
@@ -197,6 +204,7 @@ void BattleScene::keyReleaseEvent(QKeyEvent *event) {
 }
 
 void BattleScene::update() {
+    if (gameOver) return;
     Scene::update();
     if (character != nullptr) {
         int currentHealth = character->getCurrentHealth();
@@ -206,8 +214,10 @@ void BattleScene::update() {
             characterHealthBar->setHealth(currentHealth, maxHealth);
         }
         // 检查是否死亡
-        if (character->isDead()) {
-
+        if (character->isDead() && !gameOver) {
+            showWinner(2);
+            endGame();
+            return;
         }
     }
     if (character2 != nullptr) {
@@ -218,8 +228,10 @@ void BattleScene::update() {
             character2HealthBar->setHealth(currentHealth2, maxHealth2);
         }
         // 检查是否死亡
-        if (character2->isDead()) {
-            
+        if (character2->isDead() && !gameOver) {
+            showWinner(1);  // Player 1 获胜
+            endGame();
+            return;
         }
     }
     // 攻击碰撞检测
@@ -230,6 +242,7 @@ void BattleScene::update() {
 }
 
 void BattleScene::processMovement() {
+    if (gameOver) return;
     Scene::processMovement();
     if (character != nullptr) {
         // 处理重力
@@ -259,6 +272,7 @@ void BattleScene::processMovement() {
 }
 
 void BattleScene::processPicking() {
+    if (gameOver) return;
     Scene::processPicking();
     if (character->isPicking()) {
         auto mountable = findNearestUnmountedMountable(character->pos(), 100.);
@@ -299,4 +313,20 @@ Mountable *BattleScene::pickupMountable(Character *character, Mountable *mountab
         return character->pickupArmor(armor);
     }
     return nullptr;
+}
+
+// 游戏结束
+void BattleScene::showWinner(int playerNumber) {
+    if (winnerText) {
+        winnerText->setPlainText(QString("Player %1 Win!").arg(playerNumber));
+        QRectF textRect = winnerText->boundingRect();
+        winnerText->setPos((sceneRect().width() - textRect.width()) / 2,
+                          (sceneRect().height() - textRect.height()) / 2);
+        winnerText->setVisible(true);
+    }
+}
+
+void BattleScene::endGame() {
+    gameOver = true;
+    timer->stop();
 }

@@ -44,6 +44,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Terrain.cpp.obj.d"
   "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj"
   "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj.d"
+  "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Knife.cpp.obj"
+  "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Knife.cpp.obj.d"
   "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj"
   "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj.d"
   "CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj"

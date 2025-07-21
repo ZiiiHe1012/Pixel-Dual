@@ -29,6 +29,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Ice.cpp" "CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Ice.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Ice.cpp.obj.d"
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.cpp" "CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Terrain.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Terrain.cpp.obj.d"
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Fist.cpp" "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj.d"
+  "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Knife.cpp" "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Knife.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Knife.cpp.obj.d"
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.cpp" "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj.d"
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/MyGame.cpp" "CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj.d"
   "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/BattleScene.cpp" "CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj" "gcc" "CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj.d"

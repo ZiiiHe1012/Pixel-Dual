@@ -4,7 +4,7 @@
 #include "../Characters/Character.h"
 
 Weapon::Weapon(QGraphicsItem *parent, const QString &pixmapPath) 
-    : Item(parent, pixmapPath) {
+    : QObject(), Item(parent, pixmapPath) {
     setVisible(false);  // 默认隐藏
     attackTimer = new QTimer();
     attackTimer->setSingleShot(true);
