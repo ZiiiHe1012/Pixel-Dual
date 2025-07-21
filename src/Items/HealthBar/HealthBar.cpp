@@ -22,11 +22,10 @@ QRectF HealthBar::boundingRect() const {
 
 void HealthBar::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) {
     painter->save();
-    // 抵消父项的水平镜像变换（scale(-1, 1)）
+    // 抵消父项的水平镜像变换
     if (this->sceneTransform().m11() < 0) {
-        // 移动坐标系到条末尾再镜像回来
-        painter->translate(barWidth, 0);  // 把原点移到条末端
-        painter->scale(-1, 1);            // 水平翻转回来
+        painter->translate(barWidth, 0); 
+        painter->scale(-1, 1);
     }
     // 绘制背景框
     painter->setPen(QPen(Qt::black, 2));

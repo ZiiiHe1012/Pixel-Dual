@@ -41,9 +41,11 @@ private:
 
     Map *map;
     Character *character;
+    Character *character2;  // 第二个角色
     QList<Platform*> platforms;
     QList<Terrain*> terrains;
     HealthBar* characterHealthBar;
+    HealthBar* character2HealthBar;  // 第二个角色的血条
     Armor *spareArmor;
 };
 

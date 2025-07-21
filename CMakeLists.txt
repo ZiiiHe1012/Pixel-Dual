@@ -57,6 +57,10 @@ add_executable(qt_programming_2024 src/main.cpp
         src/Items/Terrain/Ice.h
         src/Items/HealthBar/HealthBar.cpp
         src/Items/HealthBar/HealthBar.h
+        src/Items/Weapons/Fist.cpp
+        src/Items/Weapons/Fist.h
+        src/Items/Weapons/Weapon.cpp
+        src/Items/Weapons/Weapon.h
         )
 target_link_libraries(qt_programming_2024
         Qt::Core

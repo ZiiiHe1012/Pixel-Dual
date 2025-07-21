@@ -8,9 +8,26 @@
 #include "../../Scenes/Scene.h"
 #include "../Platforms/Platform.h"
 #include "../../Scenes/BattleScene.h"
+#include "../Weapons/Fist.h"
 
 Character::Character(QGraphicsItem *parent, const QString &pixmapPath) 
     : Item(parent, pixmapPath) {
+    defaultWeapon = new Fist(this);
+    defaultWeapon->setOwner(this);
+    weapon = defaultWeapon;  // 初始武器
+    // 红温
+    damageEffect = new QGraphicsColorizeEffect();
+    damageEffect->setColor(Qt::red);
+    damageEffect->setStrength(0);
+    setGraphicsEffect(damageEffect);
+    // 创建伤害效果计时器
+    damageEffectTimer = new QTimer();
+    damageEffectTimer->setSingleShot(true);
+    QObject::connect(damageEffectTimer, &QTimer::timeout, [this]() {
+        if (damageEffect) {
+            damageEffect->setStrength(0);  // 恢复正常
+        }
+    });
 }
 
 bool Character::isLeftDown() const {
@@ -53,6 +70,43 @@ void Character::setCrouchImage(const QString& crouchImagePath) {
     }
 }
 
+bool Character::isAttackDown() const {
+    return attackDown;
+}
+
+void Character::attack() {
+    if (weapon) {
+        // 检查武器是否用完
+        if (weapon->isUsedUp()) {
+            switchToDefaultWeapon();
+        }
+        if (!weapon->isAttacking()) {
+            weapon->attack();
+        }
+    }
+}
+
+void Character::setAttackDown(bool attackDown) {
+    Character::attackDown = attackDown;
+}
+
+void Character::switchToDefaultWeapon() {
+    if (weapon != defaultWeapon) {
+        if (weapon) {
+            weapon->setVisible(false);
+            delete weapon;
+        }
+        weapon = defaultWeapon;
+    }
+}
+
+void Character::showDamageEffect() {
+    if (damageEffect) {
+        damageEffect->setStrength(0.6);  // 设置红色强度
+        damageEffectTimer->start(200);   // 持续200
+    }
+}
+
 bool Character::isPickDown() const {
     return pickDown;
 }
@@ -75,6 +129,7 @@ void Character::takeDamage(int damage) {
     if (currentHealth < 0) {
         currentHealth = 0;
     }
+    showDamageEffect();
 }
 
 // 治疗判定
@@ -139,6 +194,11 @@ void Character::processInput() {
         picking = false;
     }
     lastPickDown = pickDown;
+    // 攻击逻辑
+    if (!lastAttackDown && attackDown) {
+        attack();
+    }
+    lastAttackDown = attackDown;
 }
 
 bool Character::isPicking() const {
@@ -244,4 +304,32 @@ void Character::checkTerrainEffect(const QList<Terrain*>& terrains) {
     invisible = onGrass && isCrouching && isGrounded;
     if (invisible) setOpacity(0.3);
     else setOpacity(1.0);
+}
+
+// 检查攻击碰撞
+void Character::checkAttackCollision(Character* target) {
+    if (!weapon || !weapon->isAttacking() || !target || target == this) {
+        return;
+    }
+    if (weapon->hasDealtDamage) {
+        return;
+    }
+    QRectF attackRect;
+    if (transform().m11() < 0) {  // 面向左边
+        attackRect = QRectF(pos().x() - weapon->getRange(), 
+                           pos().y() - 30, 
+                           weapon->getRange(), 
+                           60);
+    } else {
+        attackRect = QRectF(pos().x(), 
+                           pos().y() - 30, 
+                           weapon->getRange(), 
+                           60);
+    }
+    // 检查目标是否在攻击范围内
+    QRectF targetRect = target->sceneBoundingRect();
+    if (attackRect.intersects(targetRect) && !target->isInvisible()) {
+        target->takeDamage(weapon->getDamage());
+        weapon->hasDealtDamage = true;
+    }
 }

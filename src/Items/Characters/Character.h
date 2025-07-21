@@ -6,11 +6,14 @@
 #define QT_PROGRAMMING_2024_CHARACTER_H
 
 #include <QGraphicsEllipseItem>
+#include <QGraphicsColorizeEffect>
+#include <QTimer>
 #include "../HeadEquipments/HeadEquipment.h"
 #include "../Armors/Armor.h"
 #include "../LegEquipments/LegEquipment.h"
 #include "../Platforms/Platform.h"
 #include "../Terrain/Terrain.h"
+#include "../Weapons/Weapon.h"
 
 class Character : public Item {
 public:
@@ -50,6 +53,17 @@ public:
     void heal(int amount);
     bool isDead() const { return currentHealth <= 0; }
 
+    //武器相关
+    [[nodiscard]] bool isAttackDown() const;
+    void setAttackDown(bool attackDown);
+    void attack();
+    void checkAttackCollision(Character* target);
+    Weapon* getWeapon() const { return weapon; }
+    void switchToDefaultWeapon();
+
+    // 攻击红温
+    void showDamageEffect();
+
     [[nodiscard]] bool isPickDown() const;
 
     void setPickDown(bool pickDown);
@@ -75,14 +89,20 @@ protected:
     LegEquipment *legEquipment{};
     Armor *armor{};
     QPointF velocity{};
+    Weapon* weapon = nullptr;
+    Weapon* defaultWeapon = nullptr;
     int maxHealth = 100;
     int currentHealth = 100;
 //    QGraphicsEllipseItem *ellipseItem; // for debugging
 private:
-    bool leftDown{}, rightDown{}, upDown{}, crouchDown{}, pickDown{};
+    bool leftDown{}, rightDown{}, upDown{}, crouchDown{}, attackDown{}, pickDown{};
     bool lastPickDown{};
     bool picking{};
+    bool lastAttackDown{};
+    bool isAttacking{};
     QGraphicsPixmapItem* crouchPixmapItem = nullptr;  // 下蹲图像
+    QTimer* damageEffectTimer = nullptr; // 红温相关
+    QGraphicsColorizeEffect* damageEffect = nullptr;
     qreal baseSpeed = 0.3;  // 基础移动速度 
     qreal gravity = 0.003;  // 重力加速度
     qreal jumpVelocity = -1;  // 跳跃初速度
