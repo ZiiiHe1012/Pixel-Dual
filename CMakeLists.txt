@@ -63,6 +63,12 @@ add_executable(qt_programming_2024 src/main.cpp
         src/Items/Weapons/Weapon.h
         src/Items/Weapons/Knife.cpp
         src/Items/Weapons/Knife.h
+        src/Items/Projectiles/Projectile.cpp
+        src/Items/Projectiles/Projectile.h
+        src/Items/Projectiles/BallProjectile.cpp
+        src/Items/Projectiles/BallProjectile.h
+        src/Items/Weapons/SolidBall.cpp
+        src/Items/Weapons/SolidBall.h
         )
 target_link_libraries(qt_programming_2024
         Qt::Core

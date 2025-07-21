@@ -157,6 +157,24 @@
 },
 {
   "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Projectiles\\Projectile.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Projectiles\\Projectile.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/Projectile.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Projectiles\\BallProjectile.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Projectiles\\BallProjectile.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BallProjectile.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BallProjectile.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Weapons\\SolidBall.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Weapons\\SolidBall.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/SolidBall.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/SolidBall.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
   "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\qt_programming_2024_autogen\\GBFAFXFCVO\\qrc_assets.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\build\\qt_programming_2024_autogen\\GBFAFXFCVO\\qrc_assets.cpp",
   "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp",
   "output": "CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"

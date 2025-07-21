@@ -168,6 +168,7 @@ qt_programming_2024_autogen/timestamp: \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsColorizeEffect \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsEllipseItem \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
+	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsView \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QMainWindow \
@@ -591,6 +592,10 @@ qt_programming_2024_autogen/timestamp: \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BallProjectile.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BallProjectile.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Grass.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Grass.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Ice.cpp \
@@ -601,6 +606,8 @@ qt_programming_2024_autogen/timestamp: \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Fist.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Knife.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Knife.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/SolidBall.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/SolidBall.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/MyGame.cpp \

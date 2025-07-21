@@ -1,10 +1,9 @@
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.cpp.obj: \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\mocs_compilation.cpp \
- C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\Z3UREFIW6B/moc_Knife.cpp \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Knife.h \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
+ C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\R4MGG5NTTQ/moc_BallProjectile.cpp \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BallProjectile.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
@@ -343,6 +342,21 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QPointF \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qtmochelpers.h \
+ C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\R4MGG5NTTQ/moc_Projectile.cpp \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
+ C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\Z3UREFIW6B/moc_Knife.cpp \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Knife.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
  C:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
@@ -351,17 +365,13 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/QPropertyAnimation \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qpropertyanimation.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qvariantanimation.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qabstractanimation.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qeasingcurve.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qtmochelpers.h \
+ C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\Z3UREFIW6B/moc_SolidBall.cpp \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/SolidBall.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\Z3UREFIW6B/moc_Weapon.cpp \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\UVLADIE3JM/moc_MyGame.cpp \
@@ -415,8 +425,6 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Qt/6.5.3/mingw_64/include/QtCore/QList \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/Scene.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Maps/Map.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/QPointF \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Character.h \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsEllipseItem \
@@ -437,5 +445,6 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\SNE2VJ5FQV/moc_Scene.cpp \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/Scene.h

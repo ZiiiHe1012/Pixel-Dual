@@ -412,6 +412,8 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Character.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Fist.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Knife.h \
@@ -419,4 +421,5 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qpropertyanimation.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qvariantanimation.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qabstractanimation.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qeasingcurve.h
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qeasingcurve.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/SolidBall.h

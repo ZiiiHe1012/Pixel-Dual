@@ -10,13 +10,14 @@
 #include "../../Scenes/BattleScene.h"
 #include "../Weapons/Fist.h"
 #include "../Weapons/Knife.h"
+#include "../Weapons/SolidBall.h"
 
 Character::Character(QGraphicsItem *parent, const QString &pixmapPath) 
     : Item(parent, pixmapPath) {
     defaultWeapon = new Fist(this);// 默认武器
     defaultWeapon->setOwner(this);
-    weapon = new Knife(this);
-    weapon->setOwner(this);  
+    weapon = new SolidBall(this);
+    weapon->setOwner(this);
     // 红温
     damageEffect = new QGraphicsColorizeEffect();
     damageEffect->setColor(Qt::red);

@@ -269,6 +269,7 @@ void BattleScene::processMovement() {
         }
         character2->checkTerrainEffect(terrains);
     }
+    updateProjectiles();
 }
 
 void BattleScene::processPicking() {
@@ -313,6 +314,30 @@ Mountable *BattleScene::pickupMountable(Character *character, Mountable *mountab
         return character->pickupArmor(armor);
     }
     return nullptr;
+}
+
+// 子弹类
+void BattleScene::updateProjectiles() {
+    QList<QGraphicsItem*> items = this->items();
+    for (QGraphicsItem* item : items) {
+        if (Projectile* projectile = dynamic_cast<Projectile*>(item)) {
+            // 检查碰撞
+            QList<Character*> characters = {character, character2};
+            projectile->checkCollisions(characters, platforms);
+            // 连接信号
+            if (!activeProjectiles.contains(projectile)) {
+                activeProjectiles.append(projectile);
+                connect(projectile, &Projectile::finished, 
+                       this, [this, projectile]() { onProjectileFinished(projectile); });
+            }
+        }
+    }
+}
+
+void BattleScene::onProjectileFinished(Projectile* projectile) {
+    activeProjectiles.removeOne(projectile);
+    removeItem(projectile);
+    projectile->deleteLater();
 }
 
 // 游戏结束

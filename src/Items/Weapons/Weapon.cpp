@@ -14,7 +14,7 @@ Weapon::Weapon(QGraphicsItem *parent, const QString &pixmapPath)
 }
 
 void Weapon::attack() {
-    if (!attacking && !isUsedUp()) {
+    if(!attacking && !isUsedUp()) {
         attacking = true;
         hasDealtDamage = false;
         setVisible(true);

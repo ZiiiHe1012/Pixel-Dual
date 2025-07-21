@@ -9,5 +9,7 @@
         <file>Items/Characters/down.png</file>
         <file>Items/Equipment/fist.png</file>
         <file>Items/Equipment/knife.png</file>
+        <file>Items/Equipment/ball.png</file>
+        <file>Items/Equipment/rifle.png</file>
     </qresource>
 </RCC>

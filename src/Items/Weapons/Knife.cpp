@@ -4,15 +4,14 @@
 
 Knife::Knife(QGraphicsItem *parent) 
     : Weapon(parent, ":/Items/Equipment/knife.png") {
-    damage = 5;    
+    damage = 4;    
     range = 80.0;   
-    usageLimit = 10;
     setScale(0.6);  
     setupAnimation();
 }
 
 Knife::~Knife() {
-    if (rotationAnimation) {
+    if(rotationAnimation) {
         rotationAnimation->stop();
         delete rotationAnimation;
     }
@@ -45,6 +44,7 @@ void Knife::attack() {
         else {
             setPos(27, -3);  
         }
+        // 旋转角度
         rotationAnimation->setStartValue(0);
         rotationAnimation->setEndValue(90);
     }
@@ -53,7 +53,7 @@ void Knife::attack() {
 
 void Knife::stopAttack() {
     Weapon::stopAttack();
-    if (rotationAnimation) {
+    if(rotationAnimation) {
         rotationAnimation->stop();
         setRotation(0);
     }

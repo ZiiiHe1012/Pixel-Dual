@@ -11,6 +11,7 @@
 #include "../Items/Maps/Map.h"
 #include "../Items/Characters/Character.h"
 #include "../Items/HealthBar/HealthBar.h"
+#include "../Items/Projectiles/Projectile.h"
 
 class BattleScene : public Scene {
 Q_OBJECT
@@ -47,6 +48,10 @@ private:
     HealthBar* characterHealthBar;
     HealthBar* character2HealthBar;  // 第二个角色的血条
     Armor *spareArmor;
+    // 子弹类
+    QList<Projectile*> activeProjectiles;
+    void updateProjectiles();
+    void onProjectileFinished(Projectile* projectile);
     // 游戏结束
     bool gameOver = false;
     QGraphicsTextItem* winnerText = nullptr;
