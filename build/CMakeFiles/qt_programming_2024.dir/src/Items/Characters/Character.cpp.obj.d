@@ -346,6 +346,12 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsColorizeEffect \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicseffect.h \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/HeadEquipment.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
@@ -353,7 +359,6 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
@@ -368,12 +373,11 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/Scene.h \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/BattleScene.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/QKeyEvent \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qevent.h \
@@ -406,4 +410,6 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Character.h \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Fist.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h

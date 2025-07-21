@@ -71,6 +71,7 @@ include CMakeFiles/qt_programming_2024.dir/flags.make
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/assets.qrc
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: CMakeFiles/qt_programming_2024_autogen.dir/AutoRcc_assets_GBFAFXFCVO_Info.json
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/HeadEquipments/CapOfTheHero/BotW_Cap_of_the_Hero_Icon.png
+qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Equipment/Fist.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Armors/FlamebreakerArmor/BotW_Flamebreaker_Armor_Icon.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Armors/OldShirt/BotW_Old_Shirt_Icon.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Characters/down.png
@@ -427,11 +428,41 @@ CMakeFiles/qt_programming_2024.dir/src/Items/HealthBar/HealthBar.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/HealthBar/HealthBar.cpp.s"
 	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\HealthBar\HealthBar.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\HealthBar\HealthBar.cpp.s
 
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Fist.cpp
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Fist.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Fist.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Weapons\Fist.cpp
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.i"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Weapons\Fist.cpp > CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Fist.cpp.i
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.s"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Weapons\Fist.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Fist.cpp.s
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.cpp
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Weapon.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Weapon.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Weapons\Weapon.cpp
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.i"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Weapons\Weapon.cpp > CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Weapon.cpp.i
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.s"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Weapons\Weapon.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Weapon.cpp.s
+
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"
 	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\qt_programming_2024_autogen\GBFAFXFCVO\qrc_assets.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\qt_programming_2024_autogen\GBFAFXFCVO\qrc_assets.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\GBFAFXFCVO\qrc_assets.cpp
 
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.i: cmake_force
@@ -467,6 +498,8 @@ qt_programming_2024_OBJECTS = \
 "CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Grass.cpp.obj" \
 "CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Ice.cpp.obj" \
 "CMakeFiles/qt_programming_2024.dir/src/Items/HealthBar/HealthBar.cpp.obj" \
+"CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj" \
+"CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj" \
 "CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"
 
 # External object files for target qt_programming_2024
@@ -495,6 +528,8 @@ qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Te
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Grass.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Ice.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/HealthBar/HealthBar.cpp.obj
+qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj
+qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/build.make
 qt_programming_2024.exe: C:/Qt/6.5.3/mingw_64/lib/libQt6Widgets.a
@@ -503,7 +538,7 @@ qt_programming_2024.exe: C:/Qt/6.5.3/mingw_64/lib/libQt6Core.a
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/linkLibs.rsp
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/objects1.rsp
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable qt_programming_2024.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable qt_programming_2024.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\qt_programming_2024.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

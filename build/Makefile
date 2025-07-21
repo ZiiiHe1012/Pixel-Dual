@@ -634,6 +634,54 @@ src/Items/Terrain/Terrain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Terrain/Terrain.cpp.s
 .PHONY : src/Items/Terrain/Terrain.cpp.s
 
+src/Items/Weapons/Fist.obj: src/Items/Weapons/Fist.cpp.obj
+.PHONY : src/Items/Weapons/Fist.obj
+
+# target to build an object file
+src/Items/Weapons/Fist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.obj
+.PHONY : src/Items/Weapons/Fist.cpp.obj
+
+src/Items/Weapons/Fist.i: src/Items/Weapons/Fist.cpp.i
+.PHONY : src/Items/Weapons/Fist.i
+
+# target to preprocess a source file
+src/Items/Weapons/Fist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.i
+.PHONY : src/Items/Weapons/Fist.cpp.i
+
+src/Items/Weapons/Fist.s: src/Items/Weapons/Fist.cpp.s
+.PHONY : src/Items/Weapons/Fist.s
+
+# target to generate assembly for a file
+src/Items/Weapons/Fist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Fist.cpp.s
+.PHONY : src/Items/Weapons/Fist.cpp.s
+
+src/Items/Weapons/Weapon.obj: src/Items/Weapons/Weapon.cpp.obj
+.PHONY : src/Items/Weapons/Weapon.obj
+
+# target to build an object file
+src/Items/Weapons/Weapon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.obj
+.PHONY : src/Items/Weapons/Weapon.cpp.obj
+
+src/Items/Weapons/Weapon.i: src/Items/Weapons/Weapon.cpp.i
+.PHONY : src/Items/Weapons/Weapon.i
+
+# target to preprocess a source file
+src/Items/Weapons/Weapon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.i
+.PHONY : src/Items/Weapons/Weapon.cpp.i
+
+src/Items/Weapons/Weapon.s: src/Items/Weapons/Weapon.cpp.s
+.PHONY : src/Items/Weapons/Weapon.s
+
+# target to generate assembly for a file
+src/Items/Weapons/Weapon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Weapon.cpp.s
+.PHONY : src/Items/Weapons/Weapon.cpp.s
+
 src/MyGame.obj: src/MyGame.cpp.obj
 .PHONY : src/MyGame.obj
 
@@ -801,6 +849,12 @@ help:
 	@echo ... src/Items/Terrain/Terrain.obj
 	@echo ... src/Items/Terrain/Terrain.i
 	@echo ... src/Items/Terrain/Terrain.s
+	@echo ... src/Items/Weapons/Fist.obj
+	@echo ... src/Items/Weapons/Fist.i
+	@echo ... src/Items/Weapons/Fist.s
+	@echo ... src/Items/Weapons/Weapon.obj
+	@echo ... src/Items/Weapons/Weapon.i
+	@echo ... src/Items/Weapons/Weapon.s
 	@echo ... src/MyGame.obj
 	@echo ... src/MyGame.i
 	@echo ... src/MyGame.s

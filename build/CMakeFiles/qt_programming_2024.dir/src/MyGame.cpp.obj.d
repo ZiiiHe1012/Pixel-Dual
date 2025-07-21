@@ -405,6 +405,8 @@ CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Character.h \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsEllipseItem \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsColorizeEffect \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicseffect.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/HeadEquipment.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.h \
@@ -417,5 +419,7 @@ CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj: \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h

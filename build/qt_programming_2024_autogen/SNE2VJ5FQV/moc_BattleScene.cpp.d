@@ -156,9 +156,11 @@ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/qt_programming_2024_autogen/S
   C:/Qt/6.5.3/mingw_64/include/QtGui/qvectornd.h \
   C:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsColorizeEffect \
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsEllipseItem \
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
+  C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicseffect.h \
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
@@ -372,4 +374,5 @@ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/qt_programming_2024_autogen/S
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.h \
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Platforms/Platform.h \
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.h \
+  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
   C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/Scene.h

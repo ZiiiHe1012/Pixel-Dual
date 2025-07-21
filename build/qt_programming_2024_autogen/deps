@@ -160,6 +160,7 @@ qt_programming_2024_autogen/timestamp: \
 	C:/Qt/6.5.3/mingw_64/include/QtGui/qvectornd.h \
 	C:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.5.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsColorizeEffect \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsEllipseItem \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsScene \
@@ -167,6 +168,7 @@ qt_programming_2024_autogen/timestamp: \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/QMainWindow \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/qframe.h \
+	C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicseffect.h \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsscene.h \
 	C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsview.h \
@@ -590,6 +592,10 @@ qt_programming_2024_autogen/timestamp: \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Ice.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Terrain.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Fist.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Fist.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/MyGame.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/MyGame.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/BattleScene.cpp \

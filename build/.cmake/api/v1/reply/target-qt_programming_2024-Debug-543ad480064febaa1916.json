@@ -166,7 +166,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 61,
+				"line" : 65,
 				"parent" : 0
 			}
 		]
@@ -291,7 +291,9 @@
 				39,
 				41,
 				43,
-				46
+				45,
+				47,
+				50
 			]
 		}
 	],
@@ -401,7 +403,9 @@
 				39,
 				41,
 				43,
-				46
+				45,
+				47,
+				50
 			]
 		},
 		{
@@ -428,7 +432,9 @@
 				38,
 				40,
 				42,
-				44
+				44,
+				46,
+				48
 			]
 		},
 		{
@@ -436,15 +442,15 @@
 			"sourceIndexes" : 
 			[
 				26,
-				45
+				49
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				47,
-				48
+				51,
+				52
 			]
 		}
 	],
@@ -697,6 +703,28 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/Items/HealthBar/HealthBar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Items/Weapons/Fist.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Items/Weapons/Fist.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Items/Weapons/Weapon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Items/Weapons/Weapon.h",
 			"sourceGroupIndex" : 1
 		},
 		{
