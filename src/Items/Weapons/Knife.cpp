@@ -4,7 +4,7 @@
 
 Knife::Knife(QGraphicsItem *parent) 
     : Weapon(parent, ":/Items/Equipment/knife.png") {
-    damage = 4;    
+    damage = 2;    
     range = 80.0;   
     setScale(0.6);  
     setupAnimation();

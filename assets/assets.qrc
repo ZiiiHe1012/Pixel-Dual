@@ -11,5 +11,6 @@
         <file>Items/Equipment/knife.png</file>
         <file>Items/Equipment/ball.png</file>
         <file>Items/Equipment/rifle.png</file>
+        <file>Items/Equipment/bullet.png</file>
     </qresource>
 </RCC>

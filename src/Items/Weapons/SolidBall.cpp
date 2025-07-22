@@ -5,10 +5,10 @@
 
 SolidBall::SolidBall(QGraphicsItem *parent) 
     : Weapon(parent, ":/Items/Equipment/ball.png") {
-    damage = 8;
+    damage = 4;
     range = 0; // 无范围判定
     setScale(0.7);
-    usageLimit = 55;
+    usageLimit = 5;
 }
 
 void SolidBall::attack() {

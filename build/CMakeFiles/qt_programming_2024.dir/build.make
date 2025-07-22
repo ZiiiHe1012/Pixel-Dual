@@ -74,6 +74,7 @@ qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pi
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Equipment/Ball.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Equipment/Rifle.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Equipment/Fist.png
+qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Equipment/Bullet.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Equipment/Knife.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Armors/FlamebreakerArmor/BotW_Flamebreaker_Armor_Icon.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Armors/OldShirt/BotW_Old_Shirt_Icon.png
@@ -521,11 +522,41 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/SolidBall.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/SolidBall.cpp.s"
 	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Weapons\SolidBall.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\SolidBall.cpp.s
 
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.obj: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Rifle.cpp
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.obj"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Rifle.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Rifle.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Weapons\Rifle.cpp
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.i"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Weapons\Rifle.cpp > CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Rifle.cpp.i
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.s"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Weapons\Rifle.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Rifle.cpp.s
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
+CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
+CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.obj: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BulletProjectile.cpp
+CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.obj"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\src\Items\Projectiles\BulletProjectile.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\src\Items\Projectiles\BulletProjectile.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Projectiles\BulletProjectile.cpp
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.i"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Projectiles\BulletProjectile.cpp > CMakeFiles\qt_programming_2024.dir\src\Items\Projectiles\BulletProjectile.cpp.i
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.s"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Projectiles\BulletProjectile.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\Projectiles\BulletProjectile.cpp.s
+
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"
 	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\qt_programming_2024_autogen\GBFAFXFCVO\qrc_assets.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\qt_programming_2024_autogen\GBFAFXFCVO\qrc_assets.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\GBFAFXFCVO\qrc_assets.cpp
 
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.i: cmake_force
@@ -567,6 +598,8 @@ qt_programming_2024_OBJECTS = \
 "CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/Projectile.cpp.obj" \
 "CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BallProjectile.cpp.obj" \
 "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/SolidBall.cpp.obj" \
+"CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.obj" \
+"CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.obj" \
 "CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"
 
 # External object files for target qt_programming_2024
@@ -601,6 +634,8 @@ qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Kn
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/Projectile.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BallProjectile.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/SolidBall.cpp.obj
+qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.obj
+qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/build.make
 qt_programming_2024.exe: C:/Qt/6.5.3/mingw_64/lib/libQt6Widgets.a
@@ -609,7 +644,7 @@ qt_programming_2024.exe: C:/Qt/6.5.3/mingw_64/lib/libQt6Core.a
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/linkLibs.rsp
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/objects1.rsp
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable qt_programming_2024.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable qt_programming_2024.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\qt_programming_2024.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,7 +4,7 @@
 
 Fist::Fist(QGraphicsItem *parent) 
     : Weapon(parent, ":/Items/Equipment/fist.png") {
-    damage = 2;
+    damage = 1;
     range = 60.0;
     setScale(0.5);  // 调整拳头大小
 }

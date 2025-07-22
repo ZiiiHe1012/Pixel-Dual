@@ -11,12 +11,13 @@
 #include "../Weapons/Fist.h"
 #include "../Weapons/Knife.h"
 #include "../Weapons/SolidBall.h"
+#include "../Weapons/Rifle.h"
 
 Character::Character(QGraphicsItem *parent, const QString &pixmapPath) 
     : Item(parent, pixmapPath) {
     defaultWeapon = new Fist(this);// 默认武器
     defaultWeapon->setOwner(this);
-    weapon = new SolidBall(this);
+    weapon = new Rifle(this);
     weapon->setOwner(this);
     // 红温
     damageEffect = new QGraphicsColorizeEffect();
@@ -198,6 +199,7 @@ void Character::processInput() {
     }
     lastPickDown = pickDown;
     // 攻击逻辑
+    // rifle连续攻击
     if (!lastAttackDown && attackDown) {
         attack();
     }

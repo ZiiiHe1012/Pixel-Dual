@@ -4,7 +4,7 @@
 BallProjectile::BallProjectile(QGraphicsItem* parent)
     : Projectile(":/Items/Equipment/ball.png", parent) {
     setScale(1.7);
-    damage = 8;
+    damage = 4;
     gravity = 0.5;
     maxLifeTime = 3000;
 }
