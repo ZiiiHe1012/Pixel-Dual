@@ -359,10 +359,6 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qtmochelpers.h \
- C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\UTYZ6UCDMC/moc_Adrenaline.cpp \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Adrenaline.h \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/HealthItem.h \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\R4MGG5NTTQ/moc_BallProjectile.cpp \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BallProjectile.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \

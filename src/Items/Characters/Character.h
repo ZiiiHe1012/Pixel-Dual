@@ -64,6 +64,9 @@ public:
     void setBaseSpeed(qreal speed) { baseSpeed = speed; }
     qreal getBaseSpeed() const { return baseSpeed; }
 
+    // 肾上腺素效果
+    void applyAdrenalineEffect();
+
     // 攻击红温
     void showDamageEffect();
 
@@ -104,6 +107,10 @@ private:
     bool lastAttackDown{};
     bool isAttacking{};
     QGraphicsPixmapItem* crouchPixmapItem = nullptr;  // 下蹲图像
+    QTimer* adrenalineHealTimer = nullptr; // 肾上腺素回血
+    QTimer* adrenalineSpeedTimer = nullptr;
+    int adrenalineHealCount = 0;
+    qreal originalSpeed = 0.3; // 肾上腺素效果前的基础速度
     QTimer* damageEffectTimer = nullptr; // 红温相关
     QGraphicsColorizeEffect* damageEffect = nullptr;
     qreal baseSpeed = 0.3;  // 基础移动速度 

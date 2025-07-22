@@ -13,6 +13,7 @@
 #include "../Weapons/SolidBall.h"
 #include "../Weapons/Rifle.h"
 #include "../Weapons/Sniper.h"
+#include "../HealthItems/Adrenaline.h"
 
 Character::Character(QGraphicsItem *parent, const QString &pixmapPath) 
     : Item(parent, pixmapPath) {
@@ -31,6 +32,21 @@ Character::Character(QGraphicsItem *parent, const QString &pixmapPath)
         if (damageEffect) {
             damageEffect->setStrength(0);  // 恢复正常
         }
+    });
+    // 创建肾上腺素定时器
+    adrenalineHealTimer = new QTimer();
+    QObject::connect(adrenalineHealTimer, &QTimer::timeout, [this]() {
+        heal(6);  // 每次回复6点
+        adrenalineHealCount++;
+        if (adrenalineHealCount >= 5) {
+            adrenalineHealTimer->stop();
+            adrenalineHealCount = 0;
+        }
+    });
+    adrenalineSpeedTimer = new QTimer();
+    adrenalineSpeedTimer->setSingleShot(true);
+    QObject::connect(adrenalineSpeedTimer, &QTimer::timeout, [this]() {
+        setBaseSpeed(originalSpeed);  // 恢复原速度
     });
 }
 
@@ -347,4 +363,22 @@ void Character::checkAttackCollision(Character* target) {
         target->takeDamage(weapon->getDamage());
         weapon->hasDealtDamage = true;
     }
+}
+
+// 应用肾上腺素效果
+void Character::applyAdrenalineEffect() {
+    if (adrenalineHealTimer->isActive()) {
+        adrenalineHealTimer->stop();
+    }
+    if (adrenalineSpeedTimer->isActive()) {
+        adrenalineSpeedTimer->stop();
+        setBaseSpeed(originalSpeed);  // 恢复原速度
+    }
+    adrenalineHealCount = 0;
+    originalSpeed = getBaseSpeed();
+    setBaseSpeed(originalSpeed * 1.5);  // 1.5倍速度
+    heal(6);
+    adrenalineHealCount++;
+    adrenalineHealTimer->start(1000);  // 每秒触发
+    adrenalineSpeedTimer->start(5000);  // 恢复速度
 }

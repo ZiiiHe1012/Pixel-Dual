@@ -350,15 +350,13 @@ CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Adrenaline.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Character.h \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsEllipseItem \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsColorizeEffect \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicseffect.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/HeadEquipment.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Mountable.h \
@@ -374,5 +372,5 @@ CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Adrenaline.cpp.obj: \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/QDebug \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h

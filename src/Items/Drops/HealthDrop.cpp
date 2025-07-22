@@ -2,6 +2,7 @@
 #include "../Characters/Character.h"
 #include "../HealthItems/Bandage.h"
 #include "../HealthItems/Medkit.h"
+#include "../HealthItems/Adrenaline.h"
 
 HealthDrop::HealthDrop(ItemType type, const QPointF& startPos, QGraphicsItem* parent)
     : DroppableItem(type, startPos, parent) {
@@ -40,7 +41,8 @@ HealthItem* HealthDrop::createHealthItem(Character* parent) {
             return new Bandage(parent);
         case HEALTH_MEDKIT:
             return new Medkit(parent);
-        // 其他治疗物品以后添加
+        case HEALTH_ADRENALINE:
+            return new Adrenaline(parent);
         default:
             return nullptr;
     }
