@@ -12,7 +12,7 @@ DropManager::DropManager(QGraphicsScene* scene, QObject* parent)
 }
 
 void DropManager::startDropping() {
-    spawnTimer->start(500 + QRandomGenerator::global()->bounded(2000));
+    spawnTimer->start(500 + QRandomGenerator::global()->bounded(1000));
 }
 
 void DropManager::stopDropping() {
@@ -37,8 +37,8 @@ void DropManager::removeDrop(DroppableItem* drop) {
 void DropManager::spawnItem() {
     DroppableItem::ItemType type = selectRandomType();
     
-    // 每种最多3个
-    if (itemCounts[type] >= 3) {
+    // 每种最多2个
+    if (itemCounts[type] >= 2) {
         return;
     }
     
@@ -52,7 +52,7 @@ void DropManager::spawnItem() {
         itemCounts[type]++;
     }
     // 掉落时间间隔
-    spawnTimer->setInterval(500 + QRandomGenerator::global()->bounded(3000));
+    spawnTimer->setInterval(1500 + QRandomGenerator::global()->bounded(3000));
 }
 
 DroppableItem::ItemType DropManager::selectRandomType() {

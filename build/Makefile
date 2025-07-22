@@ -490,6 +490,30 @@ src/Items/HealthBar/HealthBar.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthBar/HealthBar.cpp.s
 .PHONY : src/Items/HealthBar/HealthBar.cpp.s
 
+src/Items/HealthItems/Adrenaline.obj: src/Items/HealthItems/Adrenaline.cpp.obj
+.PHONY : src/Items/HealthItems/Adrenaline.obj
+
+# target to build an object file
+src/Items/HealthItems/Adrenaline.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Adrenaline.cpp.obj
+.PHONY : src/Items/HealthItems/Adrenaline.cpp.obj
+
+src/Items/HealthItems/Adrenaline.i: src/Items/HealthItems/Adrenaline.cpp.i
+.PHONY : src/Items/HealthItems/Adrenaline.i
+
+# target to preprocess a source file
+src/Items/HealthItems/Adrenaline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Adrenaline.cpp.i
+.PHONY : src/Items/HealthItems/Adrenaline.cpp.i
+
+src/Items/HealthItems/Adrenaline.s: src/Items/HealthItems/Adrenaline.cpp.s
+.PHONY : src/Items/HealthItems/Adrenaline.s
+
+# target to generate assembly for a file
+src/Items/HealthItems/Adrenaline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Adrenaline.cpp.s
+.PHONY : src/Items/HealthItems/Adrenaline.cpp.s
+
 src/Items/HealthItems/Bandage.obj: src/Items/HealthItems/Bandage.cpp.obj
 .PHONY : src/Items/HealthItems/Bandage.obj
 
@@ -537,6 +561,30 @@ src/Items/HealthItems/HealthItem.s: src/Items/HealthItems/HealthItem.cpp.s
 src/Items/HealthItems/HealthItem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.s
 .PHONY : src/Items/HealthItems/HealthItem.cpp.s
+
+src/Items/HealthItems/Medkit.obj: src/Items/HealthItems/Medkit.cpp.obj
+.PHONY : src/Items/HealthItems/Medkit.obj
+
+# target to build an object file
+src/Items/HealthItems/Medkit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Medkit.cpp.obj
+.PHONY : src/Items/HealthItems/Medkit.cpp.obj
+
+src/Items/HealthItems/Medkit.i: src/Items/HealthItems/Medkit.cpp.i
+.PHONY : src/Items/HealthItems/Medkit.i
+
+# target to preprocess a source file
+src/Items/HealthItems/Medkit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Medkit.cpp.i
+.PHONY : src/Items/HealthItems/Medkit.cpp.i
+
+src/Items/HealthItems/Medkit.s: src/Items/HealthItems/Medkit.cpp.s
+.PHONY : src/Items/HealthItems/Medkit.s
+
+# target to generate assembly for a file
+src/Items/HealthItems/Medkit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Medkit.cpp.s
+.PHONY : src/Items/HealthItems/Medkit.cpp.s
 
 src/Items/Item.obj: src/Items/Item.cpp.obj
 .PHONY : src/Items/Item.obj
@@ -1167,12 +1215,18 @@ help:
 	@echo ... src/Items/HealthBar/HealthBar.obj
 	@echo ... src/Items/HealthBar/HealthBar.i
 	@echo ... src/Items/HealthBar/HealthBar.s
+	@echo ... src/Items/HealthItems/Adrenaline.obj
+	@echo ... src/Items/HealthItems/Adrenaline.i
+	@echo ... src/Items/HealthItems/Adrenaline.s
 	@echo ... src/Items/HealthItems/Bandage.obj
 	@echo ... src/Items/HealthItems/Bandage.i
 	@echo ... src/Items/HealthItems/Bandage.s
 	@echo ... src/Items/HealthItems/HealthItem.obj
 	@echo ... src/Items/HealthItems/HealthItem.i
 	@echo ... src/Items/HealthItems/HealthItem.s
+	@echo ... src/Items/HealthItems/Medkit.obj
+	@echo ... src/Items/HealthItems/Medkit.i
+	@echo ... src/Items/HealthItems/Medkit.s
 	@echo ... src/Items/Item.obj
 	@echo ... src/Items/Item.i
 	@echo ... src/Items/Item.s

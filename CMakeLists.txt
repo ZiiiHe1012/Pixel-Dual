@@ -89,6 +89,10 @@ add_executable(qt_programming_2024 src/main.cpp
         src/Items/HealthItems/Bandage.h
         src/Items/Drops/HealthDrop.cpp
         src/Items/Drops/HealthDrop.h
+        src/Items/HealthItems/Medkit.cpp
+        src/Items/HealthItems/Medkit.h
+        src/Items/HealthItems/Adrenaline.cpp
+        src/Items/HealthItems/Adrenaline.h
         )
 target_link_libraries(qt_programming_2024
         Qt::Core

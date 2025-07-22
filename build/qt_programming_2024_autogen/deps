@@ -587,10 +587,14 @@ qt_programming_2024_autogen/timestamp: \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/HeadEquipment.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Adrenaline.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Adrenaline.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Bandage.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Bandage.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/HealthItem.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/HealthItem.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Medkit.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Medkit.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/LegEquipments/LegEquipment.cpp \

@@ -29,9 +29,7 @@ public:
 
     // 跳跃相关
     [[nodiscard]] bool isUpDown() const;
-
     void setUpDown(bool upDown);
-
     void applyGravity(qint64 deltaTime);
     void checkPlatformCollision(const QList<Platform*>& platforms);
     void checkGroundCollision(qreal groundHeight);
@@ -53,7 +51,7 @@ public:
     void heal(int amount);
     bool isDead() const { return currentHealth <= 0; }
 
-    //武器相关
+    // 武器相关
     [[nodiscard]] bool isAttackDown() const;
     void setAttackDown(bool attackDown);
     void attack();
@@ -61,6 +59,10 @@ public:
     Weapon* getWeapon() const { return weapon; }
     void switchToDefaultWeapon();
     void switchToWeapon(Weapon* newWeapon);
+
+    // 速度相关
+    void setBaseSpeed(qreal speed) { baseSpeed = speed; }
+    qreal getBaseSpeed() const { return baseSpeed; }
 
     // 攻击红温
     void showDamageEffect();

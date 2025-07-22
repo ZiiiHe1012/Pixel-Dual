@@ -296,6 +296,12 @@
 			null
 		],
 		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Adrenaline.h",
+			"MU",
+			"UTYZ6UCDMC/moc_Adrenaline.cpp",
+			null
+		],
+		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Bandage.h",
 			"MU",
 			"UTYZ6UCDMC/moc_Bandage.cpp",
@@ -305,6 +311,12 @@
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/HealthItem.h",
 			"MU",
 			"UTYZ6UCDMC/moc_HealthItem.cpp",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Medkit.h",
+			"MU",
+			"UTYZ6UCDMC/moc_Medkit.cpp",
 			null
 		],
 		[
@@ -575,12 +587,22 @@
 			null
 		],
 		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Adrenaline.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Bandage.cpp",
 			"MU",
 			null
 		],
 		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/HealthItem.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Medkit.cpp",
 			"MU",
 			null
 		],

@@ -376,4 +376,5 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Bandage.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/HealthItem.h \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Medkit.h

@@ -37,7 +37,7 @@ private:
         {DroppableItem::WEAPON_RIFLE, 15},
         {DroppableItem::WEAPON_SNIPER, 10},
         {DroppableItem::HEALTH_BANDAGE, 15},
-        {DroppableItem::HEALTH_MEDKIT, 5},
+        {DroppableItem::HEALTH_MEDKIT, 10},
         {DroppableItem::HEALTH_ADRENALINE, 10}
     };
     

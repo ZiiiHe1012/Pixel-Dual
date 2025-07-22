@@ -42,6 +42,3 @@ void DroppableItem::updatePhysics(qint64 deltaTime, qreal groundHeight, const QL
         }
     }
 }
-
-void DroppableItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) {
-}

@@ -29,8 +29,6 @@ public:
     void updatePhysics(qint64 deltaTime, qreal groundHeight, const QList<Platform*>& platforms);
     bool isGrounded() const { return grounded; }
     
-    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override;
-    
 protected:
     ItemType itemType;
     QPointF velocity;
