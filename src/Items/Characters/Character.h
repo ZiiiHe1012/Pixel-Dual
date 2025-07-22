@@ -60,6 +60,7 @@ public:
     void checkAttackCollision(Character* target);
     Weapon* getWeapon() const { return weapon; }
     void switchToDefaultWeapon();
+    void switchToWeapon(Weapon* newWeapon);
 
     // 攻击红温
     void showDamageEffect();

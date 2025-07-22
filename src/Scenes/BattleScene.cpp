@@ -57,6 +57,9 @@ BattleScene::BattleScene(QObject *parent) : Scene(parent) {
     character2HealthBar->setParentItem(character2);
     character2HealthBar->setPos(-14, -20);
     character2->setMaxHealth(100);
+    // 掉落
+    dropManager = new DropManager(this, this);
+    dropManager->startDropping();
     // 游戏结束
     winnerText = new QGraphicsTextItem();
     winnerText->setDefaultTextColor(Qt::yellow);
@@ -65,6 +68,13 @@ BattleScene::BattleScene(QObject *parent) : Scene(parent) {
     addItem(winnerText);
     winnerText->setVisible(false);
     map->scaleToFitScene(this);
+}
+
+BattleScene::~BattleScene() {
+    if (dropManager) {
+        dropManager->stopDropping();
+        delete dropManager;
+    }
 }
 
 void BattleScene::processInput() {
@@ -270,23 +280,51 @@ void BattleScene::processMovement() {
         character2->checkTerrainEffect(terrains);
     }
     updateProjectiles();
+    // 更新掉落物品
+    if (dropManager) {
+    QList<DroppableItem*> drops = dropManager->getActiveDrops();
+    qreal groundHeight = map->getFloorHeight();
+    
+    for (DroppableItem* drop : drops) {
+        drop->updatePhysics(deltaTime, groundHeight, platforms);
+    }
+}
+
 }
 
 void BattleScene::processPicking() {
     if (gameOver) return;
     Scene::processPicking();
     if (character->isPicking()) {
-        auto mountable = findNearestUnmountedMountable(character->pos(), 100.);
-        if (mountable != nullptr) {
-            spareArmor = dynamic_cast<Armor *>(pickupMountable(character, mountable));
+        DroppableItem* drop = findNearestDrop(character->pos());
+        if (drop) {
+            drop->applyToCharacter(character);
+            dropManager->removeDrop(drop);
         }
     }
     if (character2->isPicking()) {
-        auto mountable = findNearestUnmountedMountable(character2->pos(), 100.);
-        if (mountable != nullptr) {
-            spareArmor = dynamic_cast<Armor *>(pickupMountable(character2, mountable));
+        DroppableItem* drop = findNearestDrop(character2->pos());
+        if (drop) {
+            drop->applyToCharacter(character2);
+            dropManager->removeDrop(drop);
         }
     }
+}
+
+DroppableItem* BattleScene::findNearestDrop(const QPointF &pos, qreal distance) {
+    DroppableItem* nearest = nullptr;
+    qreal minDist = distance;
+    
+    for (DroppableItem* drop : dropManager->getActiveDrops()) {
+        if (drop->isGrounded()) {
+            qreal dist = QLineF(pos, drop->pos()).length();
+            if (dist < minDist) {
+                minDist = dist;
+                nearest = drop;
+            }
+        }
+    }
+    return nearest;
 }
 
 Mountable *BattleScene::findNearestUnmountedMountable(const QPointF &pos, qreal distance_threshold) {
@@ -354,4 +392,7 @@ void BattleScene::showWinner(int playerNumber) {
 void BattleScene::endGame() {
     gameOver = true;
     timer->stop();
+    if (dropManager) {
+        dropManager->stopDropping();
+    }
 }

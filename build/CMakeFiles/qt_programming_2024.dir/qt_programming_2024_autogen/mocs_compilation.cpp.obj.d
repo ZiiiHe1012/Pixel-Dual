@@ -1,12 +1,11 @@
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.cpp.obj: \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\mocs_compilation.cpp \
- C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\R4MGG5NTTQ/moc_BallProjectile.cpp \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BallProjectile.h \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- C:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
+ C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\WATPWDH5GY/moc_DropManager.cpp \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DropManager.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qnamespace.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qglobal.h \
  c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
  c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -140,13 +139,6 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Qt/6.5.3/mingw_64/include/QtCore/qtresource.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qttranslation.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qversiontagging.h \
- C:/Qt/6.5.3/mingw_64/include/QtGui/qtgui-config.h \
- C:/Qt/6.5.3/mingw_64/include/QtGui/qtguiexports.h \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qnamespace.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qtmetamacros.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qobjectdefs_impl.h \
  c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory \
@@ -310,16 +302,32 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
  c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  c:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QMap \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qmap.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata_impl.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DroppableItem.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/qgraphicsitem.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/qtguiglobal.h \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/qtgui-config.h \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/qtguiexports.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qtextstream.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qstringconverter_base.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qcontiguouscache.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qmap.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qshareddata_impl.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qset.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qhash.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qvarlengtharray.h \
@@ -342,14 +350,21 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Qt/6.5.3/mingw_64/include/QtGui/qrgba64.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qimage.h \
  C:/Qt/6.5.3/mingw_64/include/QtGui/qpixelformat.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qobject.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/QTimer \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qtimer.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
+ C:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qtmochelpers.h \
+ C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\R4MGG5NTTQ/moc_BallProjectile.cpp \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BallProjectile.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
  C:/Qt/6.5.3/mingw_64/include/QtCore/QPointF \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qpoint.h \
- C:/Qt/6.5.3/mingw_64/include/QtCore/qtmochelpers.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\R4MGG5NTTQ/moc_BulletProjectile.cpp \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BulletProjectile.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\R4MGG5NTTQ/moc_BulletProjectile2.cpp \
@@ -360,15 +375,6 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Knife.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsItem \
- C:/Qt/6.5.3/mingw_64/include/QtGui/QPainter \
- C:/Qt/6.5.3/mingw_64/include/QtGui/qpainter.h \
- C:/Qt/6.5.3/mingw_64/include/QtGui/qtextoption.h \
- C:/Qt/6.5.3/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.5.3/mingw_64/include/QtGui/qbrush.h \
- C:/Qt/6.5.3/mingw_64/include/QtGui/qfontinfo.h \
- C:/Qt/6.5.3/mingw_64/include/QtGui/qfont.h \
- C:/Qt/6.5.3/mingw_64/include/QtGui/qfontmetrics.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/QPropertyAnimation \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qpropertyanimation.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qvariantanimation.h \
@@ -454,5 +460,6 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DropManager.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\SNE2VJ5FQV/moc_Scene.cpp \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Scenes/Scene.h

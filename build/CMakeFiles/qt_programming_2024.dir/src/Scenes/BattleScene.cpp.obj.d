@@ -423,6 +423,11 @@ CMakeFiles/qt_programming_2024.dir/src/Scenes/BattleScene.cpp.obj: \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DropManager.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QMap \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qmap.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DroppableItem.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Link.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Characters/Character.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Maps/Battlefield.h \

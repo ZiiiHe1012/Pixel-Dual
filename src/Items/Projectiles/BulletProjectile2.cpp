@@ -5,7 +5,7 @@ BulletProjectile2::BulletProjectile2(QGraphicsItem* parent)
     : Projectile(":/Items/Equipment/bullet2.png", parent) {
     setScale(1);
     setZValue(99);
-    damage = 15;
+    damage = 12;
     gravity = 0;
     maxLifeTime = 2000;
 }

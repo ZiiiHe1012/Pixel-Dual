@@ -77,6 +77,18 @@ add_executable(qt_programming_2024 src/main.cpp
         src/Items/Projectiles/BulletProjectile2.h
         src/Items/Weapons/Sniper.cpp
         src/Items/Weapons/Sniper.h
+        src/Items/Drops/DroppableItem.cpp
+        src/Items/Drops/DroppableItem.h
+        src/Items/Drops/DropManager.cpp
+        src/Items/Drops/DropManager.h
+        src/Items/Drops/WeaponDrop.cpp
+        src/Items/Drops/WeaponDrop.h
+        src/Items/HealthItems/HealthItem.cpp
+        src/Items/HealthItems/HealthItem.h
+        src/Items/HealthItems/Bandage.cpp
+        src/Items/HealthItems/Bandage.h
+        src/Items/Drops/HealthDrop.cpp
+        src/Items/Drops/HealthDrop.h
         )
 target_link_libraries(qt_programming_2024
         Qt::Core

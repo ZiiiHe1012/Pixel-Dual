@@ -6,10 +6,10 @@
 
 Sniper::Sniper(QGraphicsItem *parent) 
     : Weapon(parent, ":/Items/Equipment/sniper.png") {
-    damage = 15;
+    damage = 12;
     range = 0;
     setScale(0.8);
-    usageLimit = 0;
+    usageLimit = 5;
     setVisible(false);
 }
 

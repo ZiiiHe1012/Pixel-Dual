@@ -254,6 +254,30 @@
 			null
 		],
 		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DropManager.h",
+			"MU",
+			"WATPWDH5GY/moc_DropManager.cpp",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DroppableItem.h",
+			"MU",
+			"WATPWDH5GY/moc_DroppableItem.cpp",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/HealthDrop.h",
+			"MU",
+			"WATPWDH5GY/moc_HealthDrop.cpp",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/WeaponDrop.h",
+			"MU",
+			"WATPWDH5GY/moc_WeaponDrop.cpp",
+			null
+		],
+		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/CapOfTheHero.h",
 			"MU",
 			"6DSFGWXEQO/moc_CapOfTheHero.cpp",
@@ -269,6 +293,18 @@
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h",
 			"MU",
 			"TUFB3QNAD4/moc_HealthBar.cpp",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Bandage.h",
+			"MU",
+			"UTYZ6UCDMC/moc_Bandage.cpp",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/HealthItem.h",
+			"MU",
+			"UTYZ6UCDMC/moc_HealthItem.cpp",
 			null
 		],
 		[
@@ -504,6 +540,26 @@
 			null
 		],
 		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DropManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DroppableItem.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/HealthDrop.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/WeaponDrop.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HeadEquipments/CapOfTheHero.cpp",
 			"MU",
 			null
@@ -515,6 +571,16 @@
 		],
 		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Bandage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/HealthItem.cpp",
 			"MU",
 			null
 		],

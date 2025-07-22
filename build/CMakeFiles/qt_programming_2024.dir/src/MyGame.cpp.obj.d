@@ -425,4 +425,9 @@ CMakeFiles/qt_programming_2024.dir/src/MyGame.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtCore/QObject \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthBar/HealthBar.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
- C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem
+ C:/Qt/6.5.3/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DropManager.h \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/QMap \
+ C:/Qt/6.5.3/mingw_64/include/QtCore/qmap.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DroppableItem.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Item.h

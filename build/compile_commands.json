@@ -199,6 +199,42 @@
 },
 {
   "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Drops\\DroppableItem.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Drops\\DroppableItem.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DroppableItem.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Drops\\DropManager.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Drops\\DropManager.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DropManager.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Drops\\WeaponDrop.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Drops\\WeaponDrop.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/WeaponDrop.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\HealthItems\\HealthItem.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\HealthItems\\HealthItem.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/HealthItem.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\HealthItems\\Bandage.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\HealthItems\\Bandage.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Bandage.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
+  "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\src\\Items\\Drops\\HealthDrop.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\src\\Items\\Drops\\HealthDrop.cpp",
+  "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/HealthDrop.cpp",
+  "output": "CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.obj"
+},
+{
+  "directory": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build",
   "command": "c:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp -g -o CMakeFiles\\qt_programming_2024.dir\\qt_programming_2024_autogen\\GBFAFXFCVO\\qrc_assets.cpp.obj -c C:\\Users\\ziiih\\Desktop\\Pixel-Dual\\Pixel-Dual\\build\\qt_programming_2024_autogen\\GBFAFXFCVO\\qrc_assets.cpp",
   "file": "C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/build/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp",
   "output": "CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"

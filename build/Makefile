@@ -322,6 +322,102 @@ src/Items/Characters/Link.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Link.cpp.s
 .PHONY : src/Items/Characters/Link.cpp.s
 
+src/Items/Drops/DropManager.obj: src/Items/Drops/DropManager.cpp.obj
+.PHONY : src/Items/Drops/DropManager.obj
+
+# target to build an object file
+src/Items/Drops/DropManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.obj
+.PHONY : src/Items/Drops/DropManager.cpp.obj
+
+src/Items/Drops/DropManager.i: src/Items/Drops/DropManager.cpp.i
+.PHONY : src/Items/Drops/DropManager.i
+
+# target to preprocess a source file
+src/Items/Drops/DropManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.i
+.PHONY : src/Items/Drops/DropManager.cpp.i
+
+src/Items/Drops/DropManager.s: src/Items/Drops/DropManager.cpp.s
+.PHONY : src/Items/Drops/DropManager.s
+
+# target to generate assembly for a file
+src/Items/Drops/DropManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.s
+.PHONY : src/Items/Drops/DropManager.cpp.s
+
+src/Items/Drops/DroppableItem.obj: src/Items/Drops/DroppableItem.cpp.obj
+.PHONY : src/Items/Drops/DroppableItem.obj
+
+# target to build an object file
+src/Items/Drops/DroppableItem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.obj
+.PHONY : src/Items/Drops/DroppableItem.cpp.obj
+
+src/Items/Drops/DroppableItem.i: src/Items/Drops/DroppableItem.cpp.i
+.PHONY : src/Items/Drops/DroppableItem.i
+
+# target to preprocess a source file
+src/Items/Drops/DroppableItem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.i
+.PHONY : src/Items/Drops/DroppableItem.cpp.i
+
+src/Items/Drops/DroppableItem.s: src/Items/Drops/DroppableItem.cpp.s
+.PHONY : src/Items/Drops/DroppableItem.s
+
+# target to generate assembly for a file
+src/Items/Drops/DroppableItem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.s
+.PHONY : src/Items/Drops/DroppableItem.cpp.s
+
+src/Items/Drops/HealthDrop.obj: src/Items/Drops/HealthDrop.cpp.obj
+.PHONY : src/Items/Drops/HealthDrop.obj
+
+# target to build an object file
+src/Items/Drops/HealthDrop.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.obj
+.PHONY : src/Items/Drops/HealthDrop.cpp.obj
+
+src/Items/Drops/HealthDrop.i: src/Items/Drops/HealthDrop.cpp.i
+.PHONY : src/Items/Drops/HealthDrop.i
+
+# target to preprocess a source file
+src/Items/Drops/HealthDrop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.i
+.PHONY : src/Items/Drops/HealthDrop.cpp.i
+
+src/Items/Drops/HealthDrop.s: src/Items/Drops/HealthDrop.cpp.s
+.PHONY : src/Items/Drops/HealthDrop.s
+
+# target to generate assembly for a file
+src/Items/Drops/HealthDrop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.s
+.PHONY : src/Items/Drops/HealthDrop.cpp.s
+
+src/Items/Drops/WeaponDrop.obj: src/Items/Drops/WeaponDrop.cpp.obj
+.PHONY : src/Items/Drops/WeaponDrop.obj
+
+# target to build an object file
+src/Items/Drops/WeaponDrop.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.obj
+.PHONY : src/Items/Drops/WeaponDrop.cpp.obj
+
+src/Items/Drops/WeaponDrop.i: src/Items/Drops/WeaponDrop.cpp.i
+.PHONY : src/Items/Drops/WeaponDrop.i
+
+# target to preprocess a source file
+src/Items/Drops/WeaponDrop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.i
+.PHONY : src/Items/Drops/WeaponDrop.cpp.i
+
+src/Items/Drops/WeaponDrop.s: src/Items/Drops/WeaponDrop.cpp.s
+.PHONY : src/Items/Drops/WeaponDrop.s
+
+# target to generate assembly for a file
+src/Items/Drops/WeaponDrop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.s
+.PHONY : src/Items/Drops/WeaponDrop.cpp.s
+
 src/Items/HeadEquipments/CapOfTheHero.obj: src/Items/HeadEquipments/CapOfTheHero.cpp.obj
 .PHONY : src/Items/HeadEquipments/CapOfTheHero.obj
 
@@ -393,6 +489,54 @@ src/Items/HealthBar/HealthBar.s: src/Items/HealthBar/HealthBar.cpp.s
 src/Items/HealthBar/HealthBar.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthBar/HealthBar.cpp.s
 .PHONY : src/Items/HealthBar/HealthBar.cpp.s
+
+src/Items/HealthItems/Bandage.obj: src/Items/HealthItems/Bandage.cpp.obj
+.PHONY : src/Items/HealthItems/Bandage.obj
+
+# target to build an object file
+src/Items/HealthItems/Bandage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.obj
+.PHONY : src/Items/HealthItems/Bandage.cpp.obj
+
+src/Items/HealthItems/Bandage.i: src/Items/HealthItems/Bandage.cpp.i
+.PHONY : src/Items/HealthItems/Bandage.i
+
+# target to preprocess a source file
+src/Items/HealthItems/Bandage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.i
+.PHONY : src/Items/HealthItems/Bandage.cpp.i
+
+src/Items/HealthItems/Bandage.s: src/Items/HealthItems/Bandage.cpp.s
+.PHONY : src/Items/HealthItems/Bandage.s
+
+# target to generate assembly for a file
+src/Items/HealthItems/Bandage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.s
+.PHONY : src/Items/HealthItems/Bandage.cpp.s
+
+src/Items/HealthItems/HealthItem.obj: src/Items/HealthItems/HealthItem.cpp.obj
+.PHONY : src/Items/HealthItems/HealthItem.obj
+
+# target to build an object file
+src/Items/HealthItems/HealthItem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.obj
+.PHONY : src/Items/HealthItems/HealthItem.cpp.obj
+
+src/Items/HealthItems/HealthItem.i: src/Items/HealthItems/HealthItem.cpp.i
+.PHONY : src/Items/HealthItems/HealthItem.i
+
+# target to preprocess a source file
+src/Items/HealthItems/HealthItem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.i
+.PHONY : src/Items/HealthItems/HealthItem.cpp.i
+
+src/Items/HealthItems/HealthItem.s: src/Items/HealthItems/HealthItem.cpp.s
+.PHONY : src/Items/HealthItems/HealthItem.s
+
+# target to generate assembly for a file
+src/Items/HealthItems/HealthItem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.s
+.PHONY : src/Items/HealthItems/HealthItem.cpp.s
 
 src/Items/Item.obj: src/Items/Item.cpp.obj
 .PHONY : src/Items/Item.obj
@@ -1002,6 +1146,18 @@ help:
 	@echo ... src/Items/Characters/Link.obj
 	@echo ... src/Items/Characters/Link.i
 	@echo ... src/Items/Characters/Link.s
+	@echo ... src/Items/Drops/DropManager.obj
+	@echo ... src/Items/Drops/DropManager.i
+	@echo ... src/Items/Drops/DropManager.s
+	@echo ... src/Items/Drops/DroppableItem.obj
+	@echo ... src/Items/Drops/DroppableItem.i
+	@echo ... src/Items/Drops/DroppableItem.s
+	@echo ... src/Items/Drops/HealthDrop.obj
+	@echo ... src/Items/Drops/HealthDrop.i
+	@echo ... src/Items/Drops/HealthDrop.s
+	@echo ... src/Items/Drops/WeaponDrop.obj
+	@echo ... src/Items/Drops/WeaponDrop.i
+	@echo ... src/Items/Drops/WeaponDrop.s
 	@echo ... src/Items/HeadEquipments/CapOfTheHero.obj
 	@echo ... src/Items/HeadEquipments/CapOfTheHero.i
 	@echo ... src/Items/HeadEquipments/CapOfTheHero.s
@@ -1011,6 +1167,12 @@ help:
 	@echo ... src/Items/HealthBar/HealthBar.obj
 	@echo ... src/Items/HealthBar/HealthBar.i
 	@echo ... src/Items/HealthBar/HealthBar.s
+	@echo ... src/Items/HealthItems/Bandage.obj
+	@echo ... src/Items/HealthItems/Bandage.i
+	@echo ... src/Items/HealthItems/Bandage.s
+	@echo ... src/Items/HealthItems/HealthItem.obj
+	@echo ... src/Items/HealthItems/HealthItem.i
+	@echo ... src/Items/HealthItems/HealthItem.s
 	@echo ... src/Items/Item.obj
 	@echo ... src/Items/Item.i
 	@echo ... src/Items/Item.s

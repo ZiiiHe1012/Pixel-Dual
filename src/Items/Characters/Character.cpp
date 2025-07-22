@@ -18,8 +18,7 @@ Character::Character(QGraphicsItem *parent, const QString &pixmapPath)
     : Item(parent, pixmapPath) {
     defaultWeapon = new Fist(this);// 默认武器
     defaultWeapon->setOwner(this);
-    weapon = new Sniper(this);
-    weapon->setOwner(this);
+    weapon = defaultWeapon;
     // 红温
     damageEffect = new QGraphicsColorizeEffect();
     damageEffect->setColor(Qt::red);
@@ -102,6 +101,17 @@ void Character::switchToDefaultWeapon() {
             delete weapon;
         }
         weapon = defaultWeapon;
+    }
+}
+
+void Character::switchToWeapon(Weapon* newWeapon) {
+    if (weapon && weapon != defaultWeapon) {
+        weapon->setVisible(false);
+        delete weapon;
+    }
+    weapon = newWeapon;
+    if (weapon) {
+        weapon->setOwner(this);
     }
 }
 
@@ -193,14 +203,13 @@ void Character::processInput() {
     }
     setVelocity(currentVelocity);
     // 拾取逻辑
-    if (!lastPickDown && pickDown) {
+    if (!lastPickDown && crouchDown && isGrounded) {
         picking = true;
     } else {
         picking = false;
     }
-    lastPickDown = pickDown;
+    lastPickDown = crouchDown;
     // 攻击逻辑
-    // rifle连续攻击
     if (!lastAttackDown && attackDown) {
         attack();
     }

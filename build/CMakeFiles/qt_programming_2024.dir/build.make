@@ -78,6 +78,7 @@ qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pi
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Equipment/Fist.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Equipment/Bullet.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Equipment/Knife.png
+qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Equipment/Bandage.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Armors/FlamebreakerArmor/BotW_Flamebreaker_Armor_Icon.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Armors/OldShirt/BotW_Old_Shirt_Icon.png
 qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/assets/Items/Characters/down.png
@@ -584,11 +585,101 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Sniper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Sniper.cpp.s"
 	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Weapons\Sniper.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\Weapons\Sniper.cpp.s
 
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.obj: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DroppableItem.cpp
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.obj"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\src\Items\Drops\DroppableItem.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\src\Items\Drops\DroppableItem.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\DroppableItem.cpp
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.i"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\DroppableItem.cpp > CMakeFiles\qt_programming_2024.dir\src\Items\Drops\DroppableItem.cpp.i
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.s"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\DroppableItem.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\Drops\DroppableItem.cpp.s
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.obj: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/DropManager.cpp
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.obj"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\src\Items\Drops\DropManager.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\src\Items\Drops\DropManager.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\DropManager.cpp
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.i"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\DropManager.cpp > CMakeFiles\qt_programming_2024.dir\src\Items\Drops\DropManager.cpp.i
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.s"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\DropManager.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\Drops\DropManager.cpp.s
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.obj: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/WeaponDrop.cpp
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.obj"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\src\Items\Drops\WeaponDrop.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\src\Items\Drops\WeaponDrop.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\WeaponDrop.cpp
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.i"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\WeaponDrop.cpp > CMakeFiles\qt_programming_2024.dir\src\Items\Drops\WeaponDrop.cpp.i
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.s"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\WeaponDrop.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\Drops\WeaponDrop.cpp.s
+
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.obj: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/HealthItem.cpp
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.obj"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\src\Items\HealthItems\HealthItem.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\src\Items\HealthItems\HealthItem.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\HealthItems\HealthItem.cpp
+
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.i"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\HealthItems\HealthItem.cpp > CMakeFiles\qt_programming_2024.dir\src\Items\HealthItems\HealthItem.cpp.i
+
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.s"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\HealthItems\HealthItem.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\HealthItems\HealthItem.cpp.s
+
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.obj: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/HealthItems/Bandage.cpp
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.obj"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\src\Items\HealthItems\Bandage.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\src\Items\HealthItems\Bandage.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\HealthItems\Bandage.cpp
+
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.i"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\HealthItems\Bandage.cpp > CMakeFiles\qt_programming_2024.dir\src\Items\HealthItems\Bandage.cpp.i
+
+CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.s"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\HealthItems\Bandage.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\HealthItems\Bandage.cpp.s
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.obj: C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Drops/HealthDrop.cpp
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.obj"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\src\Items\Drops\HealthDrop.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\src\Items\Drops\HealthDrop.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\HealthDrop.cpp
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.i"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\HealthDrop.cpp > CMakeFiles\qt_programming_2024.dir\src\Items\Drops\HealthDrop.cpp.i
+
+CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.s"
+	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\src\Items\Drops\HealthDrop.cpp -o CMakeFiles\qt_programming_2024.dir\src\Items\Drops\HealthDrop.cpp.s
+
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: CMakeFiles/qt_programming_2024.dir/flags.make
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: CMakeFiles/qt_programming_2024.dir/includes_CXX.rsp
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj: CMakeFiles/qt_programming_2024.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"
 	c:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj -MF CMakeFiles\qt_programming_2024.dir\qt_programming_2024_autogen\GBFAFXFCVO\qrc_assets.cpp.obj.d -o CMakeFiles\qt_programming_2024.dir\qt_programming_2024_autogen\GBFAFXFCVO\qrc_assets.cpp.obj -c C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\GBFAFXFCVO\qrc_assets.cpp
 
 CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.i: cmake_force
@@ -634,6 +725,12 @@ qt_programming_2024_OBJECTS = \
 "CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.obj" \
 "CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile2.cpp.obj" \
 "CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Sniper.cpp.obj" \
+"CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.obj" \
+"CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.obj" \
+"CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.obj" \
+"CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.obj" \
+"CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.obj" \
+"CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.obj" \
 "CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj"
 
 # External object files for target qt_programming_2024
@@ -672,6 +769,12 @@ qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Ri
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile2.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Sniper.cpp.obj
+qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DroppableItem.cpp.obj
+qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Drops/DropManager.cpp.obj
+qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Drops/WeaponDrop.cpp.obj
+qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/HealthItem.cpp.obj
+qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/HealthItems/Bandage.cpp.obj
+qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/src/Items/Drops/HealthDrop.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/GBFAFXFCVO/qrc_assets.cpp.obj
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/build.make
 qt_programming_2024.exe: C:/Qt/6.5.3/mingw_64/lib/libQt6Widgets.a
@@ -680,7 +783,7 @@ qt_programming_2024.exe: C:/Qt/6.5.3/mingw_64/lib/libQt6Core.a
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/linkLibs.rsp
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/objects1.rsp
 qt_programming_2024.exe: CMakeFiles/qt_programming_2024.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable qt_programming_2024.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX executable qt_programming_2024.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\qt_programming_2024.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
