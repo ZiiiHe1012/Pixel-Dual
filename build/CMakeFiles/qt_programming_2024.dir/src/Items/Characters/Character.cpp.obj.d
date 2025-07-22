@@ -423,4 +423,5 @@ CMakeFiles/qt_programming_2024.dir/src/Items/Characters/Character.cpp.obj: \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qabstractanimation.h \
  C:/Qt/6.5.3/mingw_64/include/QtCore/qeasingcurve.h \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/SolidBall.h \
- C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Rifle.h
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Rifle.h \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Sniper.h

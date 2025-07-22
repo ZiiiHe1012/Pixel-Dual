@@ -596,6 +596,8 @@ qt_programming_2024_autogen/timestamp: \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BallProjectile.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BulletProjectile.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BulletProjectile.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BulletProjectile2.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BulletProjectile2.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Terrain/Grass.cpp \
@@ -610,6 +612,8 @@ qt_programming_2024_autogen/timestamp: \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Knife.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Rifle.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Rifle.h \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Sniper.cpp \
+	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Sniper.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/SolidBall.cpp \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/SolidBall.h \
 	C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Weapon.cpp \

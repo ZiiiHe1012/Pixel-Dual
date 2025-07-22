@@ -352,6 +352,8 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Qt/6.5.3/mingw_64/include/QtCore/qtmochelpers.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\R4MGG5NTTQ/moc_BulletProjectile.cpp \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BulletProjectile.h \
+ C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\R4MGG5NTTQ/moc_BulletProjectile2.cpp \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BulletProjectile2.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\R4MGG5NTTQ/moc_Projectile.cpp \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\Z3UREFIW6B/moc_Knife.cpp \
@@ -374,6 +376,8 @@ CMakeFiles/qt_programming_2024.dir/qt_programming_2024_autogen/mocs_compilation.
  C:/Qt/6.5.3/mingw_64/include/QtCore/qeasingcurve.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\Z3UREFIW6B/moc_Rifle.cpp \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Rifle.h \
+ C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\Z3UREFIW6B/moc_Sniper.cpp \
+ C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Sniper.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\Z3UREFIW6B/moc_SolidBall.cpp \
  C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/SolidBall.h \
  C:\Users\ziiih\Desktop\Pixel-Dual\Pixel-Dual\build\qt_programming_2024_autogen\Z3UREFIW6B/moc_Weapon.cpp \

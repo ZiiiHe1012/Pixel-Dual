@@ -326,6 +326,12 @@
 			null
 		],
 		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BulletProjectile2.h",
+			"MU",
+			"R4MGG5NTTQ/moc_BulletProjectile2.cpp",
+			null
+		],
+		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.h",
 			"MU",
 			"R4MGG5NTTQ/moc_Projectile.cpp",
@@ -365,6 +371,12 @@
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Rifle.h",
 			"MU",
 			"Z3UREFIW6B/moc_Rifle.cpp",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Sniper.h",
+			"MU",
+			"Z3UREFIW6B/moc_Sniper.cpp",
 			null
 		],
 		[
@@ -552,6 +564,11 @@
 			null
 		],
 		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/BulletProjectile2.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Projectiles/Projectile.cpp",
 			"MU",
 			null
@@ -583,6 +600,11 @@
 		],
 		[
 			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Rifle.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/ziiih/Desktop/Pixel-Dual/Pixel-Dual/src/Items/Weapons/Sniper.cpp",
 			"MU",
 			null
 		],

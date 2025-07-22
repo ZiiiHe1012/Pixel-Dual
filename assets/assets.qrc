@@ -12,5 +12,7 @@
         <file>Items/Equipment/ball.png</file>
         <file>Items/Equipment/rifle.png</file>
         <file>Items/Equipment/bullet.png</file>
+        <file>Items/Equipment/sniper.png</file>
+        <file>Items/Equipment/bullet2.png</file>
     </qresource>
 </RCC>

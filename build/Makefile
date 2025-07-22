@@ -610,6 +610,30 @@ src/Items/Projectiles/BulletProjectile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile.cpp.s
 .PHONY : src/Items/Projectiles/BulletProjectile.cpp.s
 
+src/Items/Projectiles/BulletProjectile2.obj: src/Items/Projectiles/BulletProjectile2.cpp.obj
+.PHONY : src/Items/Projectiles/BulletProjectile2.obj
+
+# target to build an object file
+src/Items/Projectiles/BulletProjectile2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile2.cpp.obj
+.PHONY : src/Items/Projectiles/BulletProjectile2.cpp.obj
+
+src/Items/Projectiles/BulletProjectile2.i: src/Items/Projectiles/BulletProjectile2.cpp.i
+.PHONY : src/Items/Projectiles/BulletProjectile2.i
+
+# target to preprocess a source file
+src/Items/Projectiles/BulletProjectile2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile2.cpp.i
+.PHONY : src/Items/Projectiles/BulletProjectile2.cpp.i
+
+src/Items/Projectiles/BulletProjectile2.s: src/Items/Projectiles/BulletProjectile2.cpp.s
+.PHONY : src/Items/Projectiles/BulletProjectile2.s
+
+# target to generate assembly for a file
+src/Items/Projectiles/BulletProjectile2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Projectiles/BulletProjectile2.cpp.s
+.PHONY : src/Items/Projectiles/BulletProjectile2.cpp.s
+
 src/Items/Projectiles/Projectile.obj: src/Items/Projectiles/Projectile.cpp.obj
 .PHONY : src/Items/Projectiles/Projectile.obj
 
@@ -777,6 +801,30 @@ src/Items/Weapons/Rifle.s: src/Items/Weapons/Rifle.cpp.s
 src/Items/Weapons/Rifle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Rifle.cpp.s
 .PHONY : src/Items/Weapons/Rifle.cpp.s
+
+src/Items/Weapons/Sniper.obj: src/Items/Weapons/Sniper.cpp.obj
+.PHONY : src/Items/Weapons/Sniper.obj
+
+# target to build an object file
+src/Items/Weapons/Sniper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Sniper.cpp.obj
+.PHONY : src/Items/Weapons/Sniper.cpp.obj
+
+src/Items/Weapons/Sniper.i: src/Items/Weapons/Sniper.cpp.i
+.PHONY : src/Items/Weapons/Sniper.i
+
+# target to preprocess a source file
+src/Items/Weapons/Sniper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Sniper.cpp.i
+.PHONY : src/Items/Weapons/Sniper.cpp.i
+
+src/Items/Weapons/Sniper.s: src/Items/Weapons/Sniper.cpp.s
+.PHONY : src/Items/Weapons/Sniper.s
+
+# target to generate assembly for a file
+src/Items/Weapons/Sniper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\qt_programming_2024.dir\build.make CMakeFiles/qt_programming_2024.dir/src/Items/Weapons/Sniper.cpp.s
+.PHONY : src/Items/Weapons/Sniper.cpp.s
 
 src/Items/Weapons/SolidBall.obj: src/Items/Weapons/SolidBall.cpp.obj
 .PHONY : src/Items/Weapons/SolidBall.obj
@@ -990,6 +1038,9 @@ help:
 	@echo ... src/Items/Projectiles/BulletProjectile.obj
 	@echo ... src/Items/Projectiles/BulletProjectile.i
 	@echo ... src/Items/Projectiles/BulletProjectile.s
+	@echo ... src/Items/Projectiles/BulletProjectile2.obj
+	@echo ... src/Items/Projectiles/BulletProjectile2.i
+	@echo ... src/Items/Projectiles/BulletProjectile2.s
 	@echo ... src/Items/Projectiles/Projectile.obj
 	@echo ... src/Items/Projectiles/Projectile.i
 	@echo ... src/Items/Projectiles/Projectile.s
@@ -1011,6 +1062,9 @@ help:
 	@echo ... src/Items/Weapons/Rifle.obj
 	@echo ... src/Items/Weapons/Rifle.i
 	@echo ... src/Items/Weapons/Rifle.s
+	@echo ... src/Items/Weapons/Sniper.obj
+	@echo ... src/Items/Weapons/Sniper.i
+	@echo ... src/Items/Weapons/Sniper.s
 	@echo ... src/Items/Weapons/SolidBall.obj
 	@echo ... src/Items/Weapons/SolidBall.i
 	@echo ... src/Items/Weapons/SolidBall.s
